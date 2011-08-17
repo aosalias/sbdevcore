@@ -44,7 +44,20 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
         copy_file "tiny_mce.yml", "config/tiny_mce.yml", :force => true
         copy_file "s3.yml", "config/s3.yml", :force => true
         copy_file "mailer_setup.rb", "config/s3.yml", :force => true
+        copy_file "new_contact.html.erb", "app/views/contacts/new.html.erb", :force => true
         inject_into_file "app/assets/javascripts/application.js", "//= require core\n  ", :before => "//= require_tree ."
+        dev_mailer = <<-OPTS
+
+ActionMailer::Base.perform_deliveries = false
+ActionMailer::Base.raise_delivery_errors = true
+        OPTS
+        inject_into_file "config/environments/development.rb", dev_mailer, :after => "Tester::Application.configure do"
+        prod_mailer = <<-OPTS
+
+ActionMailer::Base.perform_deliveries = true
+ActionMailer::Base.raise_delivery_errors = false
+        OPTS
+        inject_into_file "config/environments/production.rb", prod_mailer, :after => "Tester::Application.configure do"
       end
 
       private

@@ -3,6 +3,7 @@ development:
     paypal_secret: foobar
     paypal_cert_id: ZSYX2U73DHCHL
     paypal_url: https://www.sandbox.paypal.com/cgi-bin/webscr?
+    mailer_email: aosalias@gmail.com
 
 production:
     paypal_email:
@@ -22,8 +23,9 @@ shared:
   static_pages:
     - home
     - about
-    - contact
-  dynamic_pages: 
+  dynamic_pages:
+    - contacts
   bucket_name: small-biz-dev
+  contact_name: Adam Olsen
   contact_email:
     - aosalias@gmail.com

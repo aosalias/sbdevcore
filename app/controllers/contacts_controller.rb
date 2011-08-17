@@ -31,4 +31,8 @@ class ContactsController < ApplicationController
     flash[:notice] = "Successfully destroyed contact."
     redirect_to contacts_url
   end
+
+  def get_index
+    Index.find_by_name(controller_name)
+  end
 end

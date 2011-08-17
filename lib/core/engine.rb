@@ -24,6 +24,8 @@ module Core
       map.instance_exec do
         devise_for :admins
 
+        resources :contacts
+
         resources :photos
         resources :videos
         resources :downloadables

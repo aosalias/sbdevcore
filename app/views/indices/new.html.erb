@@ -1,0 +1,8 @@
+<% title "New Index" %>
+
+<%= form_for @index, :html => { :multipart => true }  do |f| %>
+  <p><%= f.submit %></p>
+  <%= render :partial => 'form', :locals => {:f => f, :index => @index} %>
+  <p><%= f.submit %></p>
+<% end %>
+<p><%= link_to "Back to List", indices_path %></p>

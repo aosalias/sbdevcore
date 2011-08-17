@@ -1,0 +1,4 @@
+<%= form_for @text, :html => { :multipart => true, :class => "validate", :novalidate => "novalidate" } do |f| %>
+    <%= render "texts/form", :locals => {:f => f} %>
+  <p><%= f.submit %></p>
+<% end %>

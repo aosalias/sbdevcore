@@ -1,0 +1,39 @@
+#side_bar {
+  width: $side_bar-width;
+  float: left;
+
+  img {
+    margin: 0 auto 10px !important;
+    max-width: $side_bar-width - 2*$shadow-radius/1.5 - 3*$padding;
+  }
+
+  .content {
+    float: none;
+    width: auto;
+    padding: 10px;
+  }
+
+  .button {
+    width: $side_bar-width - 2*$shadow-radius/1.5 - 2*$padding;
+
+    em {
+      border-color:transparent $content-background-color transparent transparent !important;
+      left: -10px;
+      float:right;
+      top: 3px;
+    }
+  }
+  .button:hover em, .current em {
+    border-color: transparent transparent transparent black !important;
+    top: 3px;
+    left: -2px;
+  }
+}
+
+#side_section {
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+  background-color: $content-background-color;
+  @include box-shadow($shadow-radius);
+}

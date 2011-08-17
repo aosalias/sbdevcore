@@ -1,0 +1,21 @@
+#top_nav {
+  width: $content-width;
+  margin: $shadow-radius/1.5 0 0 14px;
+
+  .button {
+    margin-bottom: 0 !important;
+    -moz-box-shadow: 0 $shadow-radius*1.5 0 $content-background-color, 0 0 $shadow-radius black;
+    -webkit-box-shadow: 0 $shadow-radius 0 $content-background-color, 0 0 $shadow-radius black;
+    @include corners-top($corner-radius);
+    margin-right: 0 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.content {
+  margin-top: 0 !important;
+//  -moz-border-radius-topleft: 0 !important;
+//  -webkit-border-top-left-radius: 0 !important;
+//  border-top-left-radius: 0 !important;
+}

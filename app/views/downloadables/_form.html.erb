@@ -1,0 +1,17 @@
+<% f ||= local_assigns[:locals][:f] %>
+<div id='<%= f.object.id.to_s %>'>
+  <p>
+    <%= f.label :name, "File Name" %><br />
+    <%= f.text_field :name, :required => true %>
+  </p>
+  <p>
+    <%= f.label "File" %><br />
+    <%= f.file_field :asset, :required => true %>
+  </p>
+
+  <p>
+    <%= f.label :description, "File Description" %><br />
+    <%= f.text_area :description, :size => "70x3" %>
+  </p>
+  <%= render "shared/prioritizable_fields", :locals => {:f => f} %>
+</div>

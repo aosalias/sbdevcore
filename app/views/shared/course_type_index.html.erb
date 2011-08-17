@@ -1,0 +1,16 @@
+<% render_seo @index if @index %>
+
+<% content_for :pre_content do %>
+  <div id="course_nav" class='course_nav content no_back'>
+    <div id='course_nav_inner' class='nav inline_nav corner-all box-shadow'>
+      <a style="display:none" href="#"></a>
+      <% for course in @courses %>
+        <%= link_to course.name, course, :class => 'button corner-all' %>
+      <% end %>
+    </div>
+  </div>
+<% end %>
+
+<div id='ajax_content'>
+  <%= render :partial => 'indices/show' if @index %>
+</div>

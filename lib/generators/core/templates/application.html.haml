@@ -1,0 +1,29 @@
+%html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
+  %head
+    %title=yield(:title) || APP_CONFIG[:app_name]
+    %meta{:name => 'description', :content => "#{(yield(:description) || APP_CONFIG[:app_name])}"}
+    %meta{:name => 'keywords', :content => "#{(yield(:keywords) || APP_CONFIG[:app_name])}"}
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = include_tiny_mce_if_needed
+    = csrf_meta_tag
+    = yield(:head)
+  %body
+    #container
+      #main_container
+        #header
+          %h1=link_to APP_CONFIG[:app_name], home_path
+        = render 'application/top_nav'
+        .content
+          .clearfix
+            = yield(:pre_content)
+            - flash.each do |name, msg|
+              = content_tag :div, msg, :id => "flash_#{name}"
+            = yield
+
+          = yield(:post_content)
+
+      #overlay.overlay
+        .contentWrap
+
+      = render 'application/footer'

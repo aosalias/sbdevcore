@@ -1,0 +1,36 @@
+#top_nav {
+  width: $content-width;
+  padding: 10px;
+  background-color: $button-background-color;
+
+  .button {
+    margin: 0 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include box-shadow(0);
+    border-right: black 2px;
+  }
+}
+
+.content {
+  margin-top: 0 !important;
+}
+
+#main_container {
+  @include box-shadow($shadow-radius);
+  @include corners-bottom($corner-radius);
+  margin-top: 0px;
+  .content {
+    @include corners-bottom($corner-radius);
+  }
+}
+
+#header {
+  background-color: $content-background-color;
+  padding: $padding ;
+  width: $content-width;
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}

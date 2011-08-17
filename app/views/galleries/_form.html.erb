@@ -1,0 +1,33 @@
+<% f ||= local_assigns[:locals][:f] %>
+<div class='nested_fields'>
+  <div class='nested_fields'>
+    <p>
+      <%= f.label "Gallery Title" %><br />
+      <%= f.text_field :title %>
+    </p>
+  </div>
+
+  <div class='nested_fields'>
+    <h4>Gallery Photos</h4>
+    <div id="photos">
+      <%= f.fields_for :photos do |photo_form| %>
+        <%= render "photos/form", :locals => {:f => photo_form} %>
+      <% end %>
+      <p><%= link_to_add_nested('Add Photo', f, :photos, 'photos') %></p>
+    </div>
+  </div>
+
+  <div class='nested_fields'>
+    <h4>Gallery Videos</h4>
+    <div id="videos">
+      <%= f.fields_for :videos do |video_form| %>
+        <%= render "videos/form", :locals => {:f => video_form} %>
+      <% end %>
+      <p><%= link_to_add_nested('Add Video', f, :videos, 'videos') %></p>
+    </div>
+  </div>
+  <% unless f.object.new_record? %>
+    <%= f.hidden_field :_destroy %>
+  <% end %>
+  <p><%= link_to_function "Remove Gallery", "remove_fields(this)", :class => "remove" %></p>
+</div>

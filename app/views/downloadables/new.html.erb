@@ -1,0 +1,6 @@
+<%= form_for @index, :html => { :multipart => true, :class => "validate", :novalidate => "novalidate" } do |f| %>
+  <%= f.fields_for :downloadables, @downloadable do |downloadable_form| %>
+    <%= render "downloadables/form", :locals => {:f => downloadable_form} %>
+  <% end %>
+  <p><%= f.submit %></p>
+<% end %>

@@ -1,0 +1,29 @@
+development:
+    paypal_email: aosali_1287169647_biz@gmail.com
+    paypal_secret: foobar
+    paypal_cert_id: ZSYX2U73DHCHL
+    paypal_url: https://www.sandbox.paypal.com/cgi-bin/webscr?
+
+production:
+    paypal_email:
+    paypal_secret:
+    paypal_cert_id:
+    paypal_url:
+    mailer_email:
+    mailer_password:
+test:
+    paypal_email: test@example.com
+    paypal_secret: testsecret
+    paypal_cert_id: X123456789
+    paypal_url: testpaypalurl
+    
+shared:
+  app_name: Small Business Development
+  static_pages:
+    - home
+    - about
+    - contact
+  dynamic_pages: 
+  bucket_name: small-biz-dev
+  contact_email:
+    - aosalias@gmail.com

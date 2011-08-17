@@ -1,0 +1,19 @@
+<%= form_for @contact, :html => {:class => "validate", :novalidate => "novalidate"} do |f| %>
+  <%= f.error_messages %>
+  <div id='contact_form'>
+    <p>
+      <%= f.label :name, "What's your name?" %><br />
+      <%= f.text_field :name, :size => 35, :required => true %>
+    </p>
+    <p>
+      <%= f.label :email, "and email address?" %><br />
+      <%= tag(:input, {:name => "contact[email]", :type => :email, :required => true, :size => 35}) %>
+    </p>
+    <p>
+      <%= f.label :message, "Your message." %>
+      <br />
+      <%= f.text_area :message, :rows => 10, :cols => 64, :required => true %>
+    </p>
+    <%= f.submit "Send Message" %>
+  </div>
+<% end %>

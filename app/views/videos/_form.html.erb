@@ -1,0 +1,17 @@
+<% f ||= local_assigns[:locals][:f] %>
+<div id='<%= f.object.id.to_s %>'>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name, :required => true %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.hidden_field :remote_type, {:value => "Youtube"} %>
+    <%= f.label "Youtube ID" %><br />
+    <%= f.text_field :remote_id, :required => true %>
+  </p>
+  <%= render "shared/prioritizable_fields", :locals => {:f => f} %>
+</div>

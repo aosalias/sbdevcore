@@ -9,21 +9,4 @@
     = csrf_meta_tag
     = yield(:head)
   %body
-    #container
-      #main_container
-        #header
-          %h1=link_to APP_CONFIG[:app_name], home_path
-        = render 'application/top_nav'
-        .content
-          .clearfix
-            = yield(:pre_content)
-            - flash.each do |name, msg|
-              = content_tag :div, msg, :id => "flash_#{name}"
-            = yield
-
-          = yield(:post_content)
-
-      #overlay.overlay
-        .contentWrap
-
-      = render 'application/footer'
+    =render :template => "layouts/tab_nav"

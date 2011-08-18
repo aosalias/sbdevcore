@@ -36,22 +36,28 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
 
       def seeds
         copy_file "load_app_config.rb", "config/initializers/load_app_config.rb"
-        copy_file "app_config.yml", "config/app_config.yml"
-        copy_file "application.html.haml", "app/views/layouts/application.html.haml"
+#        copy_file "application.html.haml", "app/views/layouts/application.html.haml"
         copy_file "seeds.rb", "db/seeds.rb", :force => true
+
         copy_file "application.sass", "app/assets/stylesheets/application.sass", :force => true
         copy_file "sass.sass", "app/assets/stylesheets/sass.sass", :force => true
+        directory "application", "app/views/application"
+
+        copy_file "app_config.yml", "config/app_config.yml"
         copy_file "tiny_mce.yml", "config/tiny_mce.yml", :force => true
         copy_file "s3.yml", "config/s3.yml", :force => true
-        copy_file "mailer_setup.rb", "config/s3.yml", :force => true
+        copy_file "mailer_setup.rb", "config/mailer_setup.rb", :force => true
+
         copy_file "new_contact.html.erb", "app/views/contacts/new.html.erb", :force => true
         inject_into_file "app/assets/javascripts/application.js", "//= require core\n  ", :before => "//= require_tree ."
+
         dev_mailer = <<-OPTS
 
 ActionMailer::Base.perform_deliveries = false
 ActionMailer::Base.raise_delivery_errors = true
         OPTS
         inject_into_file "config/environments/development.rb", dev_mailer, :after => "Tester::Application.configure do"
+
         prod_mailer = <<-OPTS
 
 ActionMailer::Base.perform_deliveries = true

@@ -1,16 +1,4 @@
-//vars
-$background-color: #99CCFF;
-$content-background-color: aliceblue;
-$button-background-color: steelblue;
-$corner-radius: 5px;
-$shadow-radius: 10px;
-$window-width: 980px;
-$side_bar-width: 0;
-$padding: 10px;
-$content-width: $window-width - $side_bar-width - 2*($shadow-radius) - 2*$padding;
-
 @import 'mixins';
-@import 'nav_bar';
 @import 'scrollable';
 /*layout*/
 body {

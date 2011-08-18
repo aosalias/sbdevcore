@@ -1,0 +1,14 @@
+#container
+  #header
+    %h1=link_to image_tag("header.png", :alt => APP_CONFIG[:app_name]), root_path
+  .clearfix
+    = render 'application/top_nav'
+    = yield(:pre_content)
+    .content
+      - flash.each do |name, msg|
+        = content_tag :div, msg, :id => "flash_#{name}"
+      = yield
+    = yield(:post_content)
+  #overlay.overlay
+    .contentWrap
+  = render 'application/footer'

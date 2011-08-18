@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Core}
   s.description = %q{Core}
 
-  s.rubyforge_project = "sbdev-core"
+  s.rubyforge_project = "sbdev-core-new"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

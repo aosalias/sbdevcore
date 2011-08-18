@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core.gemspec" afterPath="$PROJECT_DIR$/core.gemspec" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml" afterPath="$PROJECT_DIR$/lib/generators/core/templates/layouts/tab_nav.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/mailer_setup.rb" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/initializers/mailer_setup.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/s3.yml" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/s3.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/app_config.yml" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/app_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/core/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/core/install_generator.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/application.sass" afterPath="$PROJECT_DIR$/lib/generators/core/templates/application.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/bar_nav.html.haml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/devise.rb" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/initializers/devise.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/sass.sass" afterPath="$PROJECT_DIR$/lib/generators/core/templates/sass.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/load_app_config.rb" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/initializers/load_app_config.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/generators/core/templates/tiny_mce.yml" afterPath="$PROJECT_DIR$/lib/generators/core/templates/config/tiny_mce.yml" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +37,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="core.gemspec" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core.gemspec">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="18" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/core/install_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="8" selection-start="2301" selection-end="2301" vertical-scroll-proportion="1.7142857">
               <folding />
             </state>
           </provider>
@@ -60,10 +80,10 @@
         <option value="$PROJECT_DIR$/lib/generators/core/templates/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sass.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/core.sass" />
-        <option value="$PROJECT_DIR$/lib/generators/core/install_generator.rb" />
         <option value="$PROJECT_DIR$/lib/generators/core/templates/layouts/tab_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml" />
         <option value="$PROJECT_DIR$/core.gemspec" />
+        <option value="$PROJECT_DIR$/lib/generators/core/install_generator.rb" />
       </list>
     </option>
   </component>
@@ -101,10 +121,6 @@
               <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -218,11 +234,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,10 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,7 +581,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -584,19 +642,19 @@
         <state line="1" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.025423728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/app_config.yml">
+    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/config/app_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="26" selection-start="658" selection-end="658" vertical-scroll-proportion="0.6843177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/application.sass">
+    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/sass.sass">
+    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/sass.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -617,27 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="48" selection-end="48" vertical-scroll-proportion="0.03256445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="489" selection-end="489" vertical-scroll-proportion="0.17910448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="502" selection-end="502" vertical-scroll-proportion="0.17460318">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/layouts/bar_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="2" selection-start="363" selection-end="363" vertical-scroll-proportion="0.22222222">
@@ -648,13 +685,6 @@
     <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/layouts/tab_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="2" selection-start="13" selection-end="13" vertical-scroll-proportion="0.015873017">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/core/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.4493927">
           <folding />
         </state>
       </provider>
@@ -675,7 +705,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.31746033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/core/templates/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/core/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="8" selection-start="2301" selection-end="2301" vertical-scroll-proportion="1.7142857">
           <folding />
         </state>
       </provider>

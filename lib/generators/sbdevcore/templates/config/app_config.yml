@@ -25,7 +25,7 @@ shared:
     - about
   dynamic_pages:
     - contacts
-  bucket_name: small-biz-dev
+  bucket_name: sbdev-tester
   heroku_name: sbdevtester
   nav_style: bar
   contact_name: Adam Olsen

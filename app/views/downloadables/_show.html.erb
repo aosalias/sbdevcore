@@ -1,5 +1,5 @@
-<%= link_to downloadable.title, downloadable %>
-<%= "<p>#{downloadable.description}</p>" %>
+<%= link_to downloadable.name.titleize, downloadable %>
+<p><%= downloadable.description %></p>
 <% if admin_signed_in? %>
   <p class='asset-admin'>
     <%= link_to "Remove Downloadable", downloadable, :confirm => 'Are you sure?', :method => :delete %>

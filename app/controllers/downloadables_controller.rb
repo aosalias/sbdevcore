@@ -8,7 +8,7 @@ class DownloadablesController < ApplicationController
   
   def show
     @downloadable = Downloadable.find(params[:id])
-    send_file(open(@downloadable.asset.url).path, :filename => @downloadable.asset_file_name, :type => @downloadable.asset_content_type)
+    send_data(@downloadable.asset.url, :filename => @downloadable.asset_file_name, :type => @downloadable.asset_content_type, :disposition => 'attachment')
   end
   
   def new

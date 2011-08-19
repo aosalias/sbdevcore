@@ -1,7 +1,7 @@
 #container
   #main_container
     #header
-      %h1=link_to APP_CONFIG[:app_name], home_path
+      =render 'application/header'
     = render 'application/nav'
     = yield(:pre_content)
     .content.clearfix

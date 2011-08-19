@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "core/version"
+require "sbdevcore/version"
 
 Gem::Specification.new do |s|
-  s.name        = "sbdev-core"
-  s.version     = Core::VERSION
+  s.name        = "sbdevcore"
+  s.version     = Sbdevcore::VERSION
   s.authors     = ["Adam Olsen"]
   s.email       = ["aosalias@gmail.com"]
   s.homepage    = ""

@@ -8,14 +8,14 @@ require 'tiny_mce'
 require 'haml'
 require 'aasm'
 require 'pg'
-require 'core'
+require 'sbdevcore'
 
-module Core
+module Sbdevcore
   class Engine < Rails::Engine
-    engine_name "Core"
+    engine_name "sbdevcore"
 
     rake_tasks do
-      load "tasks/core.rake"
+      load "tasks/sbdevcore.rake"
     end
   end
 

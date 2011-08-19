@@ -1,4 +1,4 @@
-module Core
+module Sbdevcore
   module Generators
     class InstallGenerator < Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
@@ -19,12 +19,12 @@ module Core
       end
 
       def migrations
-        rake "railties:install:migrations"
+        rake "sbdevcore:install:migrations"
         rake "db:migrate"
       end
 
       def set_routes
-        route "Core::Routes.draw(self)"
+        route "Sbdevcore::Routes.draw(self)"
         statics = <<-STR
 Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
     match page.name => "indices#show", :id => page.id, :as => page.name.to_sym
@@ -43,7 +43,7 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
         directory "layouts", "app/views/layouts"
 
         copy_file "new_contact.html.erb", "app/views/contacts/new.html.erb", :force => true
-        inject_into_file "app/assets/javascripts/application.js", "//= require core\n  ", :before => "//= require_tree ."
+        inject_into_file "app/assets/javascripts/application.js", "//= require sbdevcore\n  ", :before => "//= require_tree ."
 
         dev_mailer = <<-OPTS
 

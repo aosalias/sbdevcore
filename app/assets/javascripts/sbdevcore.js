@@ -5,4 +5,4 @@
 // the compiled file.
 //
 //= require ./jquery.tools.min.js
-//= require ./core-tools.js
+//= require ./sbdevcore-tools.js

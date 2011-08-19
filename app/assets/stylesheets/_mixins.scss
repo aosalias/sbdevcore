@@ -13,13 +13,7 @@
   margin: $radius;
   -moz-box-shadow: 0 0 $radius black;
   -webkit-box-shadow: 0 0 $radius black;
-  behavior: url(/stylesheets/PIE.htc);
-}
-
-@mixin box-shadow-sides($radius){
-  margin: $radius;
-//  -moz-box-shadow: 0 $shadow-radius*1.5 0 $content-background-color, 0 0 $shadow-radius black, 0 (-$shadow-radius*1.5) 0 $content-background-color, 0 0 $shadow-radius black;
-//  -webkit-box-shadow: 0 0 $radius black;
+  -box-shadow: 0 0 $radius black;
   behavior: url(/stylesheets/PIE.htc);
 }
 
@@ -70,5 +64,12 @@
   -moz-border-radius-topright: 0 !important;
   -webkit-border-top-right-radius: 0 !important;
   border-top-right-radius: 0 !important;
+  behavior: url(/stylesheets/PIE.htc);
+}
+
+@mixin corners-top-left($radius) {
+  -moz-border-radius-topleft: $radius !important;
+  -webkit-border-top-left-radius: $radius !important;
+  border-top-left-radius: $radius !important;
   behavior: url(/stylesheets/PIE.htc);
 }

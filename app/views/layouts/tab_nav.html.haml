@@ -3,8 +3,8 @@
     %h1=link_to APP_CONFIG[:app_name], home_path
   .clearfix
     = render 'application/nav'
-    = yield(:pre_content)
-    .content
+    #main_content.content
+      = yield(:pre_content)
       - flash.each do |name, msg|
         = content_tag :div, msg, :id => "flash_#{name}"
       = yield

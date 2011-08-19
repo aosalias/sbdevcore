@@ -1,12 +1,10 @@
 #nav {
   width: $content-width;
-  margin: $shadow-radius/1.5 0 0 14px;
-
+  overflow: hidden;
+  margin-left: 5px !important;
   .button {
-    margin-bottom: 0 !important;
-    -moz-box-shadow: 0 $shadow-radius*1.5 0 $content-background-color, 0 0 $shadow-radius black;
-    -webkit-box-shadow: 0 $shadow-radius 0 $content-background-color, 0 0 $shadow-radius black;
     @include corners-top($corner-radius);
+    margin-bottom: 0 !important;
     margin-right: 0 !important;
     padding-left: 10px;
     padding-right: 10px;

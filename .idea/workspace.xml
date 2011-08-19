@@ -2,7 +2,664 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/utils/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/color_picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/table.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/inlinepopups/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/css/row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/kl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/source_editor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/kl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/save/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/preview/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/charmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/items.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/media.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/utils/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/props.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/blank.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/tiny_mce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/css/advhr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/charmap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/js/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/print/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/js/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/css/advlink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/js/emotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ko.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/js/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/tiny_mce_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/utils/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/layer/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/autosave/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/css/props.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/js/row.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/js/pasteword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/js/rule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/css/cell.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/spellchecker/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/merge_cells.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/dialog.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/kl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/pastetext.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/pasteword.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/vi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/about.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/js/cell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/es_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/emotions.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/css/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/anchor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/js/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/nl_dlg.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/uk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ca_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/css/advimage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ar_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/preview/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/img/colorpicker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/js/merge_cells.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/js/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/color_picker.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/langs/ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/js/advlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/sv_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/zh_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advlink/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/hr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/js/source_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/he_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/cs_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/de_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/langs/hu_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/hi_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/kl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/utils/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/emotions/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/pagebreak/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/searchreplace/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/sk_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/nl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ru_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/cell.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/ta_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/paste/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/fr_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/media/langs/pl_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/fullpage/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/example/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/pt_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/xhtmlxtras/langs/lb_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/langs/ja_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/style/langs/cy_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/simple/langs/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/table/row.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/themes/advanced/langs/ch_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/it_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advimage/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ka_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/template/langs/ko_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/tiny_mce/plugins/advhr/rule.htm" afterPath="" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,44 +682,8 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_sbdev_core.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_buttons.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="396" selection-end="436" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sass.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="336" selection-end="431" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bar_nav.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/bar_nav.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_bar_nav.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_bar_nav.scss">
+      <file leaf-file-name="sbdevcore.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -70,19 +691,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab_nav.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="25" selection-end="53" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../templates/template.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="6" column="29" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +703,16 @@
       <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.025423728">
+            <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.073319755">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../templates/template.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="61" selection-end="81" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,18 +734,18 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_tab_nav.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/tiny_mce_config.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
         <option value="$PROJECT_DIR$/app/views/texts/_show.html.erb" />
         <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/config/app_config.yml" />
         <option value="$PROJECT_DIR$/app/views/downloadables/_show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/downloadables_controller.rb" />
         <option value="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" />
-        <option value="$PROJECT_DIR$/../templates/template.rb" />
         <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/bar_nav.html.haml" />
+        <option value="$PROJECT_DIR$/../templates/template.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
       </list>
     </option>
@@ -170,6 +791,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,26 +1123,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="23" selection-start="3441" selection-end="3441" vertical-scroll-proportion="0.5733333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/photos/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="477" selection-end="477" vertical-scroll-proportion="0.38135594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/downloadables_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="278" selection-end="282" vertical-scroll-proportion="0.22689076" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/downloadables/_show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="31" selection-start="87" selection-end="87" vertical-scroll-proportion="0.025423728" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/templates/config/app_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="21" selection-start="624" selection-end="624" vertical-scroll-proportion="0.6598778" />
@@ -485,9 +1140,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="472" selection-end="472" vertical-scroll-proportion="0.21995927">
+        <state line="2" column="4" selection-start="25" selection-end="53" vertical-scroll-proportion="0.048879836">
           <folding />
         </state>
       </provider>
@@ -499,51 +1154,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/tab_nav.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="25" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../templates/template.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/bar_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+        <state line="3" column="34" selection-start="75" selection-end="75" vertical-scroll-proportion="0.073319755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="336" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="15" column="1" selection-start="336" selection-end="431" vertical-scroll-proportion="0.36659878">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="396" selection-end="436" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="396" selection-end="436" vertical-scroll-proportion="0.5621181">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.5621181">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../templates/template.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="61" selection-end="81" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.025423728">
+        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.073319755">
           <folding />
         </state>
       </provider>

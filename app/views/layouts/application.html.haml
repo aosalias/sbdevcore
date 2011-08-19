@@ -4,7 +4,7 @@
     %meta{:name => 'description', :content => "#{(yield(:description) || APP_CONFIG[:app_name])}"}
     %meta{:name => 'keywords', :content => "#{(yield(:keywords) || APP_CONFIG[:app_name])}"}
     = stylesheet_link_tag 'application'
-    = javascript_include_tag 'tiny_mce/tiny_mce_src', 'application'
+    = javascript_include_tag 'application'
     = csrf_meta_tag
     = yield(:head)
   %body

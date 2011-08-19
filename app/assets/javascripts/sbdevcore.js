@@ -5,4 +5,5 @@
 // the compiled file.
 //
 //= require ./jquery.tools.min.js
+//= require ./tiny_mce_config.js
 //= require ./sbdevcore-tools.js

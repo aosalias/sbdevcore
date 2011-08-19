@@ -1,5 +1,4 @@
 class IndicesController < ApplicationController
-  uses_tiny_mce :only => [:show]
   before_filter :authenticate_admin!, :except => [:show]
 
   def index

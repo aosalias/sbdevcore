@@ -170,6 +170,7 @@ $(document).ready(function (){
   set_currents();
   setOverlay();
   setTooltip();
+  init_tinymce()
   $('.accordion').tabs(".accordion div.pane", {tabs: 'h4', effect: 'fade'})
   $(".items").tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
   $("#course_nav").tabs("#ajax_content", {effect: 'myAjax', history: true, initialIndex: null});

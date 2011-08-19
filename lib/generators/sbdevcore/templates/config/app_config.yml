@@ -27,6 +27,7 @@ shared:
     - contacts
   bucket_name: small-biz-dev
   heroku_name: sbdevtester
+  nav_style: bar
   contact_name: Adam Olsen
   contact_email:
     - aosalias@gmail.com

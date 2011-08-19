@@ -1,5 +1,4 @@
 class GalleriesController < ApplicationController
-  uses_tiny_mce :only => [:new, :edit]
   before_filter :authenticate_admin!, :except => [:index, :show]
   before_filter :get_index, :only => [:index]
 

@@ -1,5 +1,4 @@
 class TextsController < ApplicationController
-#  uses_tiny_mce :only => [:new, :edit, :show]
   before_filter :authenticate_admin!
   def index
     @texts = Text.all

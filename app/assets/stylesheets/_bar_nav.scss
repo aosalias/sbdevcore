@@ -19,18 +19,15 @@
 #main_container {
   @include box-shadow($shadow-radius);
   @include corners-bottom($corner-radius);
+  background-color: $content-background-color;
   margin-top: 0px;
   .content {
-    @include corners-bottom($corner-radius);
+    @include box-shadow(0);
+    @include corners-all(0);
+    background-color: transparent;
   }
-}
-
-#header {
-  background-color: $content-background-color;
-  padding: $padding ;
-  width: $content-width;
-  h1 {
-    margin: 0;
-    text-align: center;
+  #nav {
+    @include corners-all(0);
+    @include box-shadow(0);
   }
 }

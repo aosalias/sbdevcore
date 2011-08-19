@@ -22,9 +22,20 @@ body {
   overflow: hidden;
 }
 
+#header {
+  background-color: transparent;
+  padding: $padding;
+  width: $content-width;
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}
+
 .content {
   background-color: $content-background-color;
-  padding: $padding ;
+  padding: $padding;
+  @include box-shadow($shadow-radius);
   @include corners-all($corner-radius);
   width: $content-width;
 }

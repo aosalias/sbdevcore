@@ -1,0 +1,15 @@
+#container
+  #main_container
+    #header
+      %h1=link_to APP_CONFIG[:app_name], home_path
+    = render 'application/nav'
+    = yield(:pre_content)
+    .content.clearfix
+      - flash.each do |name, msg|
+        = content_tag :div, msg, :id => "flash_#{name}"
+      = yield
+    = yield(:post_content)
+    = render 'application/footer'
+  #overlay.overlay
+    .contentWrap
+

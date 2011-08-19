@@ -5,8 +5,7 @@
     %meta{:name => 'keywords', :content => "#{(yield(:keywords) || APP_CONFIG[:app_name])}"}
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'application'
-    = include_tiny_mce_if_needed
     = csrf_meta_tag
     = yield(:head)
   %body
-    =render :template => "layouts/tab_nav"
+    =render :template => "layouts/#{APP_CONFIG[:nav_style] rescue 'bar'}_nav.html.haml"

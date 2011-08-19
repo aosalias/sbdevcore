@@ -28,7 +28,7 @@ module Sbdevcore
         statics = <<-STR
 Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
     match page.name => "indices#show", :id => page.id, :as => page.name.to_sym
-  end
+  end rescue true
   root :to => "indices#show", :id => (Index.find_by_name('home').id rescue 1)
         STR
         route statics

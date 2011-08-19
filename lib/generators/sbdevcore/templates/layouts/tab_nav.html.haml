@@ -2,7 +2,7 @@
   #header
     %h1=link_to APP_CONFIG[:app_name], home_path
   .clearfix
-    = render 'application/top_nav'
+    = render 'application/nav'
     = yield(:pre_content)
     .content
       - flash.each do |name, msg|

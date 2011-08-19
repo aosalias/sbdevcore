@@ -1,0 +1,51 @@
+/*Buttons*/
+.nav .button {
+  width: 210px;
+  padding: 5px 0 !important;
+}
+
+img.button {
+  border: none;
+}
+
+.button {
+  background-color: $button-background-color;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: $content-background-color;
+  font-size: 1.2em;
+  @include box-shadow($shadow-radius);
+  @include corners-all($corner-radius);
+}
+
+.button:hover, .current {
+  background-color: $content-background-color;
+  color: black !important;
+}
+
+.pagination .button{
+  width: auto;
+  padding: 5px;
+}
+.button em {
+  border-style:solid;
+  border-color:transparent transparent transparent $content-background-color;
+  border-width:9px;
+  display:inline-block;
+  bottom:-38px;
+  position: relative;
+  left: 10px;
+  top: 2px;
+  height:0;
+  width:0;
+}
+
+.button:hover em,.current em {
+  border-color: black transparent transparent transparent;
+  top: 8px;
+}

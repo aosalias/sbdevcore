@@ -100,10 +100,10 @@ function add_nested(link, association, content, hide) {
 }
 
 function set_currents(){
-  $('.button[href="'+window.location.pathname.match(/\/\w*/i)+'"]').addClass("current");
-  $('.button[href="'+window.location.pathname+'"]').addClass("current");
+  $('#nav [href="'+window.location.pathname.match(/\/\w*/i)+'"]').addClass("current");
+  $('#nav [href="'+window.location.pathname+'"]').addClass("current");
   if(window.location.pathname === '/') {
-    $('#top_nav [href="/home"]').addClass("current");
+    $('#nav [href="/home"]').addClass("current");
   }
 }
 

@@ -1,5 +1,12 @@
 @import 'mixins';
-@import 'scrollable';
+@import 'gallery';
+@import 'buttons';
+@import 'tooltips';
+@import 'js_errors';
+@import 'trip_advisor';
+@import 'overlay';
+@import 'testimonials';
+
 /*layout*/
 body {
   font-family: "Lucida Grande","Lucida Sans Unicode","bitstream vera sans","trebuchet ms",verdana,sans-serif;
@@ -7,15 +14,6 @@ body {
   font-size: 16px;
   padding: 0;
   margin: 0;
-}
-
-img {
-  padding: $padding;
-  max-width: $content-width - $padding*2 - 2*$shadow-radius/1.5;
-  background-color: $button-background-color;
-  @include corners-all(3px);
-  @include box-shadow($shadow-radius);
-  display: inline-block;
 }
 
 #container {
@@ -32,10 +30,25 @@ img {
 }
 
 #footer {
-  background-color: $content-background-color;
   font-size: 12px;
+}
+
+.inline_nav {
+  margin: 0 auto;
+}
+
+.inline_nav .button {
   @include box-shadow($shadow-radius);
-  @include corners-all($corner-radius);
+  width: $content-width/2 - 2*$shadow-radius/1.5 - 2*$padding;
+}
+
+.inline_nav li, .inline_nav ul {
+  display: inline;
+}
+
+img {
+  max-width: $content-width - $padding*2 - 2*$shadow-radius/1.5;
+  display: inline-block;
 }
 
 img.left, img.right {
@@ -51,18 +64,16 @@ img.left, img.right {
   float: left;
 }
 
+.center {
+  text-align: center;
+}
+
 img.center {
   margin: 0 auto;
   display: block;
 }
 
-.toggleable_content {
-  display:none;
-}
-
 .clearfix { overflow: hidden; }
-
-/*Random*/
 
 a img {
   border: none;
@@ -83,91 +94,27 @@ ul, li {
   margin: 0;
 }
 
-/*Nav*/
-.nav {
-  background: $button-background-color;
-  color: $content-background-color;
-  padding: $padding;
-  @include corners-all($corner-radius);
+.circle {
+  background: $content-background-color;
+  border: 3px solid $button-background-color;
+  width: 230px;
+  height: 230px;
+  @include corners-all(50%);
   @include box-shadow($shadow-radius);
-  margin-bottom: 20px;
 }
 
-.inline_nav {
-  margin: 0 auto;
-}
-
-.inline_nav .button {
-  @include box-shadow($shadow-radius);
-  width: $content-width/2 - 2*$shadow-radius/1.5 - 2*$padding;
-}
-
-.inline_nav li, .inline_nav ul {
-  display: inline;
-}
-
-.accordion .button {
-  display: block;
-}
-
-#blog .button {
-  padding: 5px 25px 5px 10px;
-}
-
-#blog .button em {
-  float: right;
-}
-
-/*Buttons*/
-.nav .button {
-  width: 210px;
-  padding: 5px 0 !important;
-}
-
-img.button {
+.circle img {
   border: none;
+  outline: none;
+  width: 224px;
+  height: 224px;
 }
 
-.button {
-  background-color: $button-background-color;
-  cursor: pointer;
-  border: none;
-  display: inline-block;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-  color: $content-background-color;
-  font-size: 1.2em;
-  @include box-shadow($shadow-radius);
-  @include corners-all($corner-radius);
-}
-
-.button:hover, .current {
-  background-color: $content-background-color;
-  color: black !important;
-}
-
-.pagination .button{
-  width: auto;
-  padding: 5px;
-}
-.button em {
-  border-style:solid;
-  border-color:transparent transparent transparent $content-background-color;
-  border-width:9px;
-  display:inline-block;
-  bottom:-38px;
-  position: relative;
-  left: 10px;
-  top: 2px;
-  height:0;
-  width:0;
-}
-
-.button:hover em,.current em {
-  border-color: black transparent transparent transparent;
-  top: 8px;
+.no_back {
+  background:none !important;
+  border:none !important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 /*Flash*/
@@ -190,184 +137,14 @@ img.button {
   display: inline;
 }
 
-/*Specifics*/
-.circle {
-  background: $content-background-color;
-  border: 3px solid $button-background-color;
-  width: 230px;
-  height: 230px;
-  @include corners-all(50%);
-  @include box-shadow($shadow-radius);
-}
-
-.circle img {
-  border: none;
-  outline: none;
-  width: 224px;
-  height: 224px;
-}
-
-.nested_fields {
-  border: 2px solid black;
-  padding: 10px;
-  margin: 5px;
-}
-.nested_fields img {
-  float: left;
-  margin: 5px;
-}
-
-#testimonials li {
-  border: solid 2px black;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-}
-
-#testimonials img {
-  max-height: 150px;
-}
-
-
-.overlay {
-
-  /* must be initially hidden */
-  display:none;
-
-  /* place overlay on top of other elements */
-  z-index:10000;
-
-  /* styling */
-  background-color: $content-background-color;
-
-  width:840px;
-  padding: 20px;
-  min-height:200px;
-  top: 0 !important;
-  /*overflow-y: auto;  */
-  /* CSS3 styling for latest browsers */
-  @include box-shadow(90px);
-}
-
-/* close button positioned on upper right corner */
-.overlay .close {
-  background:url(/assets/close.png);
-  position:absolute;
-  right:-15px;
-  top:-15px;
-  cursor:pointer;
-  height:35px;
-  width:35px;
-}
-
-.overlay img {
-  max-width: 800px;
-  max-height: 600px;
-}
-
-.clear {
-  clear:both;
-  height:15px;
-}
-
-.error em {
-  border:16px solid;
-  border-color:yellow transparent transparent;
-  bottom:-32px;
-  display:block;
-  height:0;
-  left:130px;
-  position:absolute;
-  width:0;
-}
-
-/* error message */
-.error {
-  height:15px;
-  background-color:yellow;
-  padding:5px 10px;
-  display:none;
-  font-size: 14px;
-  z-index: 10001;
-  @include corners-all($corner-radius);
-  @include box-shadow(6px);
-}
-
-.error p {
-  margin:0;
-}
-
-.tooltip em {
-  border:16px solid;
-  border-color:black transparent transparent;
-  bottom:-35px;
-  display:block;
-  height:0;
-  left: 70px;
-  position:absolute;
-  width:0;
-}
-
-/* tootip message */
-.tooltip {
-  background-color:black;
-  color: $content-background-color;
-  border: 3px solid black;
-  padding:10px 10px;
-  display:none;
-  min-width: 100px;
-  max-width: 300px;
-  @include corners-all($corner-radius);
-  @include box-shadow($shadow-radius);
-}
-
-.tooltip p {
-  margin:0;
-}
-
-.tooltip h3 {
-  margin:0;
-}
-
-.no_back {
-  background:none !important;
-  border:none !important;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-}
-
-.course_nav {
-  margin-top: 0 !important;
-}
 
 .two-col {
   width: 50%;
   float: left;
 }
 
-.center {
-  text-align: center;
-}
-
-
-#trip_advisor {
-  margin-top: 10px;
-  border: 3px solid $content-background-color;
-}
-
-#trip_advisor div {
-  max-width: 224px !important;
-}
-
-#trip_advisor dt {
-  min-height: 35px !important;
-}
-
 table.mceLayout {
   height: auto !important;
-}
-
-#facebook {
-  padding: 5px;
 }
 
 .asset-admin {
@@ -389,5 +166,17 @@ table.mceLayout {
 
 td {
   text-align: left;
+}
+
+.course_nav {
+  margin-top: 0 !important;
+}
+
+#blog .button {
+  padding: 5px 25px 5px 10px;
+}
+
+#blog .button em {
+  float: right;
 }
 

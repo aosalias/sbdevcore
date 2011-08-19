@@ -1,0 +1,31 @@
+.tooltip em {
+  border:16px solid;
+  border-color:black transparent transparent;
+  bottom:-35px;
+  display:block;
+  height:0;
+  left: 70px;
+  position:absolute;
+  width:0;
+}
+
+/* tootip message */
+.tooltip {
+  background-color:black;
+  color: $content-background-color;
+  border: 3px solid black;
+  padding:10px 10px;
+  display:none;
+  min-width: 100px;
+  max-width: 300px;
+  @include corners-all($corner-radius);
+  @include box-shadow($shadow-radius);
+}
+
+.tooltip p {
+  margin:0;
+}
+
+.tooltip h3 {
+  margin:0;
+}

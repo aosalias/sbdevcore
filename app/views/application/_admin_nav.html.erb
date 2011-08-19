@@ -1,9 +1,0 @@
-<div id='admin_nav' class='nav corner-all box-shadow'>
-  <ul>
-    <% if admin_signed_in? %>
-      <%= link_to "Admin Sign out", destroy_admin_session_path, :class => 'button corner-all' %>
-    <% else %>
-      <%= link_to "Admin Sign in", new_admin_session_path, :class => 'button corner-all' %>
-    <% end %>
-  </ul>
-</div>

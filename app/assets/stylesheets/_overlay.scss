@@ -1,0 +1,35 @@
+.overlay {
+
+  /* must be initially hidden */
+  display:none;
+
+  /* place overlay on top of other elements */
+  z-index:10000;
+
+  /* styling */
+  background-color: $content-background-color;
+
+  width:840px;
+  padding: 20px;
+  min-height:200px;
+  top: 0 !important;
+  /*overflow-y: auto;  */
+  /* CSS3 styling for latest browsers */
+  @include box-shadow(90px);
+}
+
+/* close button positioned on upper right corner */
+.overlay .close {
+  background:url(/assets/close.png);
+  position:absolute;
+  right:-15px;
+  top:-15px;
+  cursor:pointer;
+  height:35px;
+  width:35px;
+}
+
+.overlay img {
+  max-width: 800px;
+  max-height: 600px;
+}

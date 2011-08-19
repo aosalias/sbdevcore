@@ -1,0 +1,26 @@
+.error em {
+  border:16px solid;
+  border-color:yellow transparent transparent;
+  bottom:-32px;
+  display:block;
+  height:0;
+  left:130px;
+  position:absolute;
+  width:0;
+}
+
+/* error message */
+.error {
+  height:15px;
+  background-color:yellow;
+  padding:5px 10px;
+  display:none;
+  font-size: 14px;
+  z-index: 10001;
+  @include corners-all($corner-radius);
+  @include box-shadow(6px);
+}
+
+.error p {
+  margin:0;
+}

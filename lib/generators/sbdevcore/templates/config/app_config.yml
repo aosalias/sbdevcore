@@ -26,6 +26,7 @@ shared:
   dynamic_pages:
     - contacts
   bucket_name: small-biz-dev
+  heroku_name: sbdevtester
   contact_name: Adam Olsen
   contact_email:
     - aosalias@gmail.com

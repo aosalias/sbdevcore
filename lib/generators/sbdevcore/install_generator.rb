@@ -60,6 +60,14 @@ ActionMailer::Base.raise_delivery_errors = false
         inject_into_file "config/environments/production.rb", prod_mailer, :after => "Tester::Application.configure do"
       end
 
+      def git
+        run "git init ."
+        copy_file ".gitignore", ".gitignore", :force => true
+        copy_file "git_config", ".git/config", :force => true
+        run "git add ."
+        run "git commit -m 'first commit'"
+      end
+
       private
       def db_file_name
         app_name.downcase.underscore

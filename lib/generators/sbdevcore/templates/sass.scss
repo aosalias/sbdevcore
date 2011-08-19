@@ -1,0 +1,11 @@
+$background-color: black;
+$content-background-color: aliceblue;
+$button-background-color: darken(#ff0000, 10);
+$corner-radius: 3px;
+$shadow-radius: 10px;
+$window-width: 980px;
+$side_bar-width: 0;
+$padding: 15px;
+$content-width: $window-width - $side_bar-width - 4*($shadow-radius + 1)/1.5 - 2*$padding;
+@import 'sbdev_core';
+@import 'bar_nav';

@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "core/version"
 
 Gem::Specification.new do |s|
-  s.name        = "core"
+  s.name        = "sbdev-core"
   s.version     = Core::VERSION
   s.authors     = ["Adam Olsen"]
   s.email       = ["aosalias@gmail.com"]

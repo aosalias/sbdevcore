@@ -21,10 +21,8 @@ Gem::Specification.new do |s|
   s.add_dependency('tinymce-rails')
   s.add_dependency('prioritizable')
   s.add_dependency('devise')
-  s.add_dependency('aws-s3', :require => 'aws/s3')
   s.add_dependency('paperclip')
   s.add_dependency('haml-edge')
-  s.add_dependency('rubyist-aasm', :require => 'aasm')
   s.add_dependency('sitemap_generator')
   s.add_dependency("hpricot")
 end

@@ -22,9 +22,9 @@ module LayoutHelper
   end
   
   def render_seo(index)
-    title index.page_title unless index.page_title.blank?
-    keywords index.keywords unless index.keywords.blank?
-    description index.page_description unless index.page_description.blank?
+    title index.try "page_title"
+    keywords index.try 'keywords'
+    description index.try 'page_description'
   end
   
   def stylesheet(*args)

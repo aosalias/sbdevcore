@@ -1,4 +1,4 @@
 <%= render :partial => 'application/inline_nav', :locals => {:indices => @index.indices} %>
 <div id='ajax_content'>
-  <%= render :partial => 'indices/show' %>
+  <%= render :partial => 'indices/show', :locals => { :index => @index } %>
 </div>

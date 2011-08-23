@@ -104,6 +104,10 @@ ul, li {
   margin: 0;
 }
 
+form {
+  margin: 0;
+}
+
 .circle {
   background: $content-background-color;
   border: 3px solid $button-background-color;
@@ -163,7 +167,7 @@ table.mceLayout {
 }
 
 .highlight-section {
-  background-color: darken($background-color, 1);
+  background-color: #FFE87C;
 }
 
 .justify_right {

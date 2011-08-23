@@ -42,7 +42,7 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
         directory "application", "app/views/application"
 
         copy_file "new_contact.html.erb", "app/views/contacts/new.html.erb", :force => true
-        inject_into_file "app/assets/javascripts/application.js", "//= require sbdevcore\n", :before => "//= require_tree ."
+        inject_into_file "app/assets/javascripts/application.js", "//= require tinymce.jquery\n//= require sbdevcore\n", :before => "//= require_tree ."
 
         dev_mailer = <<-OPTS
 

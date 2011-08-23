@@ -16,6 +16,12 @@ module Sbdevcore
     rake_tasks do
       load "tasks/sbdevcore.rake"
     end
+
+    initializer 'sbdevcore.app_controller' do |app|
+      ActiveSupport.on_load(:action_controller) do
+        include Sbdevcore::ApplicationControllerExtensions
+      end
+    end
   end
 
   module Routes

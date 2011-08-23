@@ -1,5 +1,6 @@
 namespace :sbdevcore do
-  task :load_core_seeds do
-    SbdevCore::Engine.load_seed
+  desc "load sbdev core seeds"
+  task :seed => :environment do
+    Sbdevcart::Engine.load_seed
   end
 end

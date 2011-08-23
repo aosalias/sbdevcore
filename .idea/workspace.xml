@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
+    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="tweaks">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/core_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/core_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +48,7 @@
       <file leaf-file-name="core_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/core_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,10 +87,10 @@
         <option value="$PROJECT_DIR$/app/helpers/layout_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/texts/_show.html.erb" />
         <option value="$PROJECT_DIR$/script/rails" />
-        <option value="$PROJECT_DIR$/app/controllers/core_controller.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/sbdevcore.rake" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
         <option value="$PROJECT_DIR$/sbdevcore.gemspec" />
+        <option value="$PROJECT_DIR$/app/controllers/core_controller.rb" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
       </list>
     </option>
@@ -646,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/core_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.add_dependency('sitemap_generator')
   s.add_dependency("hpricot")
   s.add_dependency("simple_form")
-#  s.add_dependency("inherited_resources")
+  s.add_dependency("inherited_resources")
 #  s.add_development_dependency("web-app-theme", ">= 0.6.2")
 end

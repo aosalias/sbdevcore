@@ -1,3 +1,4 @@
+<% index ||= local_assigns[:index] %>
 <% render_seo index %>
 
 <div class='clearfix'><%= render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset %></div>

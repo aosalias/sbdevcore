@@ -35,8 +35,6 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
       end
 
       def seeds
-        copy_file "seeds.rb", "db/seeds.rb", :force => true
-
         copy_file "application.scss", "app/assets/stylesheets/application.scss", :force => true
         copy_file "sass.scss", "app/assets/stylesheets/sass.scss", :force => true
         directory "application", "app/views/application"
@@ -49,21 +47,20 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
 ActionMailer::Base.perform_deliveries = false
 ActionMailer::Base.raise_delivery_errors = true
         OPTS
-        inject_into_file "config/environments/development.rb", dev_mailer, :after => "Tester::Application.configure do"
+        inject_into_file "config/environments/development.rb", dev_mailer, :after => "Application.configure do"
 
         prod_mailer = <<-OPTS
 
 ActionMailer::Base.perform_deliveries = true
 ActionMailer::Base.raise_delivery_errors = false
         OPTS
-        inject_into_file "config/environments/production.rb", prod_mailer, :after => "Tester::Application.configure do"
+        inject_into_file "config/environments/production.rb", prod_mailer, :after => "Application.configure do"
         gsub_file "config/environments/production.rb", /"X-Sendfile"/, "nil" 
       end
 
       def git
         run "git init ."
         copy_file ".gitignore", ".gitignore", :force => true
-        copy_file "git_config", ".git/config", :force => true
         run "git add ."
         run "git commit -m 'first commit'"
       end

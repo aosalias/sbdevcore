@@ -17,6 +17,9 @@ module Sbdevcore
       load "tasks/sbdevcore.rake"
     end
 
+    config.action_mailer.perform_deliveries = !Rails.env.production?
+    config.action_mailer.raise_delivery_errors = Rails.env.production?
+
     initializer 'sbdevcore.app_controller' do |app|
       ActiveSupport.on_load(:action_controller) do
         include Sbdevcore::ApplicationControllerExtensions

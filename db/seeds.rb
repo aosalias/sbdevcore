@@ -29,10 +29,8 @@ LOREM_SANS_HTML = <<-END_LOREM
 
 id = 0
 #
-Admin.all.each(&:destroy)
 Admin.create({:username => 'admin', :password => 'secret', :password_confirmation => 'secret', :email => APP_CONFIG[:contact_email].first})
 #
-Index.all.each(&:destroy)
 statics.each do |index|
   attr = {
     :name => index,

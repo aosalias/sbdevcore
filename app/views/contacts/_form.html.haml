@@ -1,4 +1,4 @@
-= simple_form_for @contact, :html => {:class => "validate"} do |f|
+= simple_form_for @contact, :html => {:novalidate => true} do |f|
   = f.input :name, :label => "What's your name?"
   = f.input :email, :label =>  "and email address?"
   = f.input :message, :label => "Your message.", :input_html => { :cols => 48, :rows => 5 }

@@ -131,7 +131,7 @@ function setOverlay(){
 
     onLoad: function(){
       setTooltip();
-      $(".validate", this.getOverlay).validator({position: "top center",message: '<div><em/></div>', offset: [-17,0]});
+      set_validate()
       if($('#overlay .mceEditor').length > 0){
         tinyMCE.execCommand('mceAddControl', false, $('.mceEditor').attr('id'));
       }
@@ -156,6 +156,10 @@ function spellcheck(){
   $('.mceEditor iframe').contents().find('body').attr("spellcheck", true);
 }
 
+function set_validate(){
+  $(".validate").validator({position: "right",message: '<div><em/></div>', offset: [19,5]});
+}
+
 $(document).ready(function (){
   $('.ajax_form').submitWithAjax();
   $('.ajax_link').ajaxLink();
@@ -163,11 +167,11 @@ $(document).ready(function (){
   $('.toggle_link').toggleable();
   $('.toggle_link').first().click();
   $(".scrollable").scrollable();
-  $(".validate").validator({position: "top center",message: '<div><em/></div>', offset: [-17,0]});
   $('.asset-admin a').each(function(){
     $(this).highlightDiv();
   }); 
   paginateAjax();
+  set_validate()
   set_currents();
   setOverlay();
   setTooltip();

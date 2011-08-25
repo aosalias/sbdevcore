@@ -2,8 +2,4 @@
 - if(f.object.prioritizables.empty? rescue true)
   = f.hidden_field :priority
 - else
-  %p
-    = f.label "#{f.object.class.to_s} Priority"
-    %br/
-    - i=0
-    = f.select :priority, options_for_select(f.object.prioritizables.map{|p| [(i+=1).ordinalize, p.priority]} + [['Last',f.object.lowest_priority+1]], f.object.priority)
+  = f.input :priority, :as => :select, :collection => (f.object.prioritizables.each_with_index.map{|p,i| [(i+1).ordinalize, p.priority]} + [['Last',f.object.lowest_priority+1]]), :include_blank => false

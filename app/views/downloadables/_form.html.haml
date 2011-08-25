@@ -1,15 +1,6 @@
 - f ||= local_assigns[:locals][:f]
 %div{:id => f.object.id.to_s}
-  %p
-    = f.label :name, "File Name"
-    %br/
-    = f.text_field :name, :required => true
-  %p
-    = f.label "File"
-    %br/
-    = f.file_field :asset, :required => true
-  %p
-    = f.label :description, "File Description"
-    %br/
-    = f.text_area :description, :size => "70x3"
+  = f.input :name
+  = f.input :asset, :label => "File"
+  = f.input :description, :input_html => { :size => "70x3" }
   = render "shared/prioritizable_fields", :locals => {:f => f}

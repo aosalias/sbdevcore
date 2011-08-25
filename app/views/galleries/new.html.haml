@@ -1,6 +1,3 @@
-= form_for @gallery, :html => { :multipart => true } do |f|
-  = f.error_messages
-  %p= f.submit
+= simple_form_for @gallery, :html => { :multipart => true } do |f|
   = render :partial => 'form'
-  %p= f.submit
-%p= link_to "Back to List", galleries_path
+  = f.button :submit

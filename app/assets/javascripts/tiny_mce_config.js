@@ -5,6 +5,8 @@ function init_tinymce() {
     theme : "advanced",
     plugins : "autoresize, paste",
 
+    height : "5",
+
     // Plugin Options
     paste_auto_cleanup_on_paste : true,
     paste_block_drop : true,

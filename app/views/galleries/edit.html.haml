@@ -1,9 +1,9 @@
 - title "Edit Gallery"
-= form_for @gallery, :html => { :multipart => true } do |f|
+= simple_form_for @gallery, :html => { :multipart => true } do |f|
   = f.error_messages
-  %p= f.submit
+  = f.button :submit
   = render :partial => 'form'
-  %p= f.submit
+  = f.button :submit
 %p
   = link_to "Show", @gallery
   |

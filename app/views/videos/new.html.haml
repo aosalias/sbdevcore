@@ -1,4 +1,4 @@
-= form_for @index, :html => { :multipart => true, :class => "validate", :novalidate => "novalidate" } do |f|
-  = f.fields_for :videos, @video do |video_form|
+= simple_form_for @index, :html => { :multipart => true, :novalidate => true } do |f|
+  = f.association @video do |video_form|
     = render "videos/form", :locals => {:f => video_form}
-  %p= f.submit
+  = f.button :submit

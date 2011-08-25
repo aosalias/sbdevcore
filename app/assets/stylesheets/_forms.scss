@@ -12,17 +12,23 @@
     float: left;
     width: 170px;
     text-align: right;
-    margin: 2px 10px; }
+    margin: 2px 10px;
+  }
   div {
     &.input {
       margin-bottom: 10px; }
     &.boolean {
-      margin-left: 190px; } }
+      margin-left: 190px;
+    }
+  }
   input[type='submit'] {
-    margin-left: 190px; }
-  div.boolean label {
+    margin-left: 190px;
+  }
+  div.boolean label, label.collection_radio, label[for='mceEditor'] {
     float: none;
-    margin: 0 10px; } }
+    margin: 0 10px;
+  }
+}
 
 .error {
   height:15px;

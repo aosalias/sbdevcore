@@ -1,11 +1,13 @@
 require 'rails'
 require 'rubygems'
-require 'aws/s3'
-require 'paperclip'
+require 'tinymce-rails'
+require 'prioritizable'
 require 'devise'
-require 'will_paginate'
+require 'paperclip'
 require 'haml'
-require 'aasm'
+require 'sitemap_generator'
+require "hpricot"
+require "simple_form"
 require 'pg'
 require 'sbdevcore'
 
@@ -24,6 +26,10 @@ module Sbdevcore
       ActiveSupport.on_load(:action_controller) do
         include Sbdevcore::ApplicationControllerExtensions
       end
+    end
+
+    initializer 'sbdevcore.view_helpers' do |app|
+      ActionView::Base.send :include, ViewHelpers
     end
   end
 
@@ -47,6 +53,25 @@ module Sbdevcore
           resources :texts
           resource :gallery
         end
+      end
+    end
+  end
+
+  module ViewHelpers
+    def custom_form_for(object, *args, &block)
+      options = args.extract_options!
+      simple_form_for(object, *(args << options.merge(:builder => CustomFormBuilder)), &block)
+    end
+    class CustomFormBuilder < SimpleForm::FormBuilder
+      def input(attribute_name, options = {}, &block)
+        column     = find_attribute_column(attribute_name)
+        input_type = default_input_type(attribute_name, column, options)
+        if options.has_key?(:input_html)
+          options[:input_html].merge!(:class => input_type)
+        else
+          options[:input_html] = {:class => input_type}
+        end
+        super
       end
     end
   end

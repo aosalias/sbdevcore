@@ -1,0 +1,9 @@
+- title "Video"
+%p
+  %strong Name:
+  = h @video.name
+%p
+  = link_to "Edit", edit_video_path(@video)
+  |
+  \#{link_to "Destroy", @video, :confirm => 'Are you sure?', :method => :delete} |
+  \#{link_to "View All", videos_path}

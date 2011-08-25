@@ -9,13 +9,12 @@
   /* styling */
   background-color: $content-background-color;
 
-  width:840px;
+  max-width: $content-width - 100px;
   padding: 20px;
   min-height:200px;
   top: 0 !important;
-  /*overflow-y: auto;  */
-  /* CSS3 styling for latest browsers */
-  @include box-shadow(90px);
+  @include box-shadow(50px);
+  @include corners-all(10px);
 }
 
 /* close button positioned on upper right corner */
@@ -31,5 +30,4 @@
 
 .overlay img {
   max-width: 800px;
-  max-height: 600px;
 }

@@ -113,7 +113,8 @@ function paginateAjax(){
 
 function setOverlay(){
   $(".overlayed").overlay({
-
+    fixed: false,
+    target: '#overlay',
 		onBeforeLoad: function() {
 			var wrap = this.getOverlay().find(".contentWrap");
 			var url = this.getTrigger().attr("href");

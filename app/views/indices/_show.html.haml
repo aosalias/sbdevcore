@@ -1,0 +1,14 @@
+- index ||= local_assigns[:index]
+- render_seo index
+.clearfix= render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset
+- if admin_signed_in?
+  %div
+    %p.asset-admin
+      = link_to "Add Text", new_index_text_path(index.id), :rel=>"#overlay", :class => "overlayed"
+      = link_to "Add Photo", new_index_photo_path(index.id), :rel=>"#overlay", :class => "overlayed"
+      = link_to "Add Video", new_index_video_path(index.id), :rel=>"#overlay", :class => "overlayed"
+      = link_to "Add Downloadable File", new_index_downloadable_path(index.id), :rel=>"#overlay", :class => "overlayed"
+- unless index.gallery.nil?
+  - content_for :post_content do
+    .content.corner-all.box-shadow
+      = render :partial => "shared/gallery", :locals => {:objs => index.gallery.assets}

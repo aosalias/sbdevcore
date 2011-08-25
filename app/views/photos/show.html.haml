@@ -1,0 +1,4 @@
+.center
+  = image_tag(@photo.asset.url, :alt => @photo.name)
+  %h3= @photo.name.titleize
+  %p= @photo.description

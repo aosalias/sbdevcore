@@ -1,0 +1,6 @@
+%div
+  = raw text.content
+  - if admin_signed_in?
+    %p.asset-admin
+      = link_to "Edit Text", edit_text_path(text), :rel=>"#overlay", :class => "overlayed"
+      = link_to "Remove Text", text, :confirm => 'Are you sure?', :method => :delete

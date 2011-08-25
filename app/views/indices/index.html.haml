@@ -1,0 +1,17 @@
+- title "Indices"
+%table
+  %tr
+    %th Name
+    %th Page Title
+    %th Keywords
+    %th Page Description
+  - for index in @indices
+    %tr
+      %td= h index.name
+      %td= h index.page_title
+      %td= h index.keywords
+      %td= h index.page_description
+      %td= link_to "Show", index
+      %td= link_to "Edit", edit_index_path(index)
+      %td= link_to "Destroy", index, :confirm => 'Are you sure?', :method => :delete
+%p= link_to "New Index", new_index_path

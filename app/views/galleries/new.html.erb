@@ -1,8 +1,0 @@
-<%= form_for @gallery, :html => { :multipart => true } do |f| %>
-  <%= f.error_messages %>
-  <p><%= f.submit %></p>
-    <%= render :partial => 'form' %>
-  <p><%= f.submit %></p>
-<% end %>
-
-<p><%= link_to "Back to List", galleries_path %></p>

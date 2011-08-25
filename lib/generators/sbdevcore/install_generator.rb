@@ -38,8 +38,6 @@ Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
         copy_file "application.scss", "app/assets/stylesheets/application.scss", :force => true
         copy_file "sass.scss", "app/assets/stylesheets/sass.scss", :force => true
         directory "application", "app/views/application"
-
-        copy_file "new_contact.html.erb", "app/views/contacts/new.html.erb", :force => true
         inject_into_file "app/assets/javascripts/application.js", "//= require tinymce.jquery\n//= require sbdevcore\n", :before => "//= require_tree ."
 
         dev_mailer = <<-OPTS

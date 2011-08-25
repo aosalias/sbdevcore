@@ -1,0 +1,11 @@
+- title "Videos"
+%table
+  %tr
+    %th Name
+  - for video in @videos
+    %tr
+      %td= h video.name
+      %td= link_to "Show", video
+      %td= link_to "Edit", edit_video_path(video)
+      %td= link_to "Destroy", video, :confirm => 'Are you sure?', :method => :delete
+%p= link_to "New Video", new_video_path

@@ -29,54 +29,19 @@ LOREM_SANS_HTML = <<-END_LOREM
 
 id = 0
 #
+Admin.all.each(&:destroy)
 Admin.create({:username => 'admin', :password => 'secret', :password_confirmation => 'secret', :email => APP_CONFIG[:contact_email].first})
 #
-statics.each do |index|
+Index.all.each(&:destroy)
+[statics + dynamics].flatten.each do |index|
   attr = {
     :name => index,
-    :title => index.capitalize,
     :page_title => APP_CONFIG[:app_name] + " - " + index.capitalize,
     :page_description => APP_CONFIG[:app_name] + " - " + index.capitalize,
     :keywords => index,
     :texts_attributes => {
       (id += 1).to_s =>{
-        :content => "<h2>#{index.titleize}</h2> #{LOREM_LONG}",
-        :priority => "1"
-#        :photos_attributes => {
-#          (id += 1).to_s => {
-#            :asset => File.open("#{RAILS_ROOT}/db/seeds/sunset-1.jpg", 'rb'),
-#            :klass => "right",
-#            :title => "sunset",
-#            :priority => "1",
-#            :description => LOREM_SANS_HTML
-#          }
-#        }
-      }
-#      (id += 1).to_s =>{
-#        :priority => "2",
-#        "videos_attributes" => {
-#          (id += 1).to_s =>{
-#            :remote_type => "Youtube",
-#            :remote_id => "lbROjOciOZA",
-#            :priority => 1,
-#            :title => "Roatan Diving"
-#          }
-#        }
-#      }
-    }
-  }
-  Index.create(attr)
-end
-dynamics.each do |index|
-  attr = {
-    :name => index,
-    :title => index.capitalize,
-    :page_title => APP_CONFIG[:app_name] + " - " + index.capitalize,
-    :page_description => APP_CONFIG[:app_name] + " - " + index.capitalize,
-    :keywords => index,
-    :texts_attributes => {
-      (id += 1).to_s =>{
-        :content => "<h2>#{index.titleize}</h2> #{LOREM_LONG}",
+        :content => "#{LOREM_LONG}",
         :priority => "1"
 #        :photos_attributes => {
 #          (id += 1).to_s => {

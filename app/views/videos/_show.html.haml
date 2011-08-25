@@ -1,0 +1,12 @@
+.center
+  = "<h3>#{video.name}</h3>" unless video.name.blank?
+  %object{:align => "c", :height => "390", :width => "520"}
+    %param{:name => "movie", :value => video.url}/
+    %param{:name => "allowFullScreen", :value => "true"}/
+    %param{:name => "allowscriptaccess", :value => "always"}/
+    %embed{:allowfullscreen => "true", :allowscriptaccess => "always", :height => "390", :src => video.url, :type => "application/x-shockwave-flash", :width => "520"}
+  = "<p>By: #{video.description}</p>" unless video.description.blank?
+  - if admin_signed_in?
+    %p.asset-admin
+      = link_to "Remove Video", video, :confirm => 'Are you sure?', :method => :delete
+      = link_to "Edit Video", edit_video_path(video), :rel=>"#overlay", :class => "overlayed"

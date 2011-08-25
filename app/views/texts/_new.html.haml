@@ -1,0 +1,4 @@
+= form_for @index, :html => { :multipart => true } do |f|
+  = f.fields_for :texts, @text do |text_form|
+    = render "texts/form", :locals => {:f => text_form}
+  %p= f.submit

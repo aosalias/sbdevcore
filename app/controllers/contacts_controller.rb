@@ -33,6 +33,6 @@ class ContactsController < ApplicationController
   end
 
   def get_index
-    Index.find_by_name(controller_name)
+    @index = Index.find_by_name(controller_name)
   end
 end

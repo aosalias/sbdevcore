@@ -1,0 +1,4 @@
+$("#gallery_wrap_inner").fadeOut('fast', function() {
+$("#gallery_wrap_inner").html("#{escape_javascript(render :partial => 'show', :locals => {:video => @video})}");
+});
+$("#gallery_wrap_inner").fadeIn('slow');

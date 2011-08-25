@@ -1,0 +1,9 @@
+- title "Edit Index"
+= form_for @index, :html => { :multipart => true }  do |f|
+  %p= f.submit
+  = render :partial => 'form', :locals => {:f => f, :index => @index}
+  %p= f.submit
+%p
+  = link_to "Show", @index
+  |
+  \#{link_to "View All", indices_path}

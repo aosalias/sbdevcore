@@ -31,3 +31,7 @@
     @include box-shadow(0);
   }
 }
+
+#header {
+  background-color: $content-background-color;
+}

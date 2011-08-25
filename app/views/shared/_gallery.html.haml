@@ -1,0 +1,14 @@
+#gallery.clearfix.corner-all.box_shadow
+  #gallery_wrap.clearfix
+    %a{:class => "#{'no_back ' unless (objs.size > 1)}backward browse left"}
+    #gallery_wrap_inner.left
+    %a{:class => "#{'no_back ' unless (objs.size > 1)}forward browse right"}
+  .scroll_nav
+    %a{:class => "#{'no_back ' unless (objs.size > 4)}prev browse left"}
+    .scrollable.corner-all.nav
+      .items.ajax-nav
+        - objs.each_with_index do |obj, index|
+        = '<div>' if index%4 == 0
+        = link_to image_tag(obj.thumb, :alt => obj.name), obj, :id => obj.id, :class => "button#{' current' if obj.id == objs.first.id}"
+        = '</div>' if (index%4 == 3 || index == objs.size-1)
+    %a{:class => "#{'no_back ' unless (objs.size > 4)}next browse right"}

@@ -1,0 +1,25 @@
+- alignment ||= local_assigns[:locals][:alignment]
+- f ||= local_assigns[:locals][:f]
+%div{:id => f.object.id.to_s}
+  - if f.object.asset_file_name
+  = image_tag f.object.asset.url(:thumb), :width => "100"
+  %p
+    = f.label :name, "Photo Title"
+    %br/
+    = f.text_field :name
+  %p
+    = f.label "Photo"
+    %br/
+    = f.file_field :asset, :required => (f.object.asset_file_name.blank? ? true : false)
+  %p
+    = f.label :description, "Photo Description"
+    %br/
+    = f.text_area :description, :size => "70x3"
+  %p
+    = f.label :klass, "Alignment"
+    %br/
+    = f.radio_button :klass, 'left'
+    Left
+    \#{f.radio_button :klass, 'center', :checked => true}  Center
+    \#{f.radio_button :klass, 'right'}  Right
+  = render "shared/prioritizable_fields", :locals => {:f => f}

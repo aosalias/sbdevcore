@@ -1,0 +1,43 @@
+- f ||= local_assigns[:locals][:f]
+- index ||= f.object
+- seo ||= (local_assigns[:locals][:seo] rescue true)
+- side ||= (local_assigns[:locals][:side] rescue true)
+- gallery ||= (local_assigns[:locals][:gallery] rescue true)
+%p
+  = index.name
+%h4 Content Sections
+.pane.clearfix
+  = f.fields_for :content_sections, index.content_sections do |section_form|
+  = render "sections/form", :locals => {:f => section_form, :alignment => true}
+  %p= link_to_add_nested('Add Section', f, :content_sections, 'sections')
+- if seo
+  %h4 Search Engine Info
+  .pane.clearfix
+    %p
+      = f.label :page_title
+      %br/
+      = f.text_field :page_title
+    %p
+      = f.label :keywords
+      %br/
+      = f.text_area :keywords, :rows => 5
+    %p
+      = f.label :page_description
+      %br/
+      = f.text_area :page_description, :rows => 10
+- if side
+  %h4 Side Bar Section
+  - if index.side_section.nil?
+    %p= link_to_add_nested('Add Side Section', f, :side_section, 'sections', false, true)
+  - else
+    .pane.clearfix
+      = f.fields_for :side_section, index.side_section do |section_form|
+      = render "sections/form", :locals => {:f => section_form}
+- if side
+  %h4 Gallery
+  - if index.gallery.nil?
+    %p= link_to_add_nested('Add Gallery', f, :gallery, 'galleries', false, true)
+  - else
+    .pane.clearfix
+      = f.fields_for :gallery, index.gallery do |section_form|
+      = render "galleries/form", :locals => {:f => section_form}

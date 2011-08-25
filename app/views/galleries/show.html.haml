@@ -1,0 +1,9 @@
+- render_seo @index
+%h2= h @gallery.title
+= render :partial => 'indices/index'
+- if admin_signed_in?
+  %p
+    = link_to "Edit Gallery", edit_gallery_path(@gallery)
+- content_for :post_content do
+  .content.corner-all.box-shadow
+    = render :partial => "shared/gallery", :locals => {:objs => @gallery.assets}

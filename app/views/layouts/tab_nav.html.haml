@@ -1,14 +1,9 @@
-#container
-  #header
-    =render 'application/header'
-  .clearfix
-    = render 'application/nav'
-    #main_content.content
-      = yield(:pre_content)
-      - flash.each do |name, msg|
-        = content_tag :div, msg, :id => "flash_#{name}"
-      = yield
-    = yield(:post_content)
-  #overlay.overlay
-    .contentWrap
-  = render 'application/footer'
+#header
+  =render 'application/header'
+.clearfix
+  = render 'application/nav'
+  #main_content.content
+    - flash.each do |name, msg|
+      = content_tag :div, msg, :id => "flash_#{name}"
+    = yield
+=render 'application/footer'

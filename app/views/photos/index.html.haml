@@ -1,0 +1,21 @@
+- title "Photos"
+%table
+  %tr
+    %th Title
+    %th Photo File Name
+    %th Photo Content Type
+    %th Photo File Size
+    %th Owner
+    %th Owner Type
+  - for photo in @photos
+    %tr
+      %td= h photo.title
+      %td= h photo.photo_file_name
+      %td= h photo.photo_content_type
+      %td= h photo.photo_file_size
+      %td= h photo.owner_id
+      %td= h photo.owner_type
+      %td= link_to "Show", photo
+      %td= link_to "Edit", edit_photo_path(photo)
+      %td= link_to "Destroy", photo, :confirm => 'Are you sure?', :method => :delete
+%p= link_to "New Photo", new_photo_path

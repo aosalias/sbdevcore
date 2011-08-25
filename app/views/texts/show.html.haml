@@ -1,0 +1,8 @@
+%p
+  %strong Content:
+  = h @text.content
+%p
+  = link_to "Edit", edit_text_path(@text)
+  |
+  \#{link_to "Destroy", @text, :confirm => 'Are you sure?', :method => :delete} |
+  \#{link_to "View All", texts_path}

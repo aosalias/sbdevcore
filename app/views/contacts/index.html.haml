@@ -1,0 +1,21 @@
+- title "Contacts"
+%table
+  %tr
+    %th Name
+    %th From
+    %th Arrival Date
+    %th Departure Date
+    %th Email
+    %th Message
+  - for contact in @contacts
+    %tr
+      %td= h contact.name
+      %td= h contact.from
+      %td= h contact.arrival_date
+      %td= h contact.departure_date
+      %td= h contact.email
+      %td= h contact.message
+      %td= link_to "Show", contact
+      %td= link_to "Edit", edit_contact_path(contact)
+      %td= link_to "Destroy", contact, :confirm => 'Are you sure?', :method => :delete
+%p= link_to "New Contact", new_contact_path

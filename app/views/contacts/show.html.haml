@@ -1,0 +1,24 @@
+- title "Contact"
+%p
+  %strong Name:
+  = h @contact.name
+%p
+  %strong From:
+  = h @contact.from
+%p
+  %strong Arrival Date:
+  = h @contact.arrival_date
+%p
+  %strong Departure Date:
+  = h @contact.departure_date
+%p
+  %strong Email:
+  = h @contact.email
+%p
+  %strong Message:
+  = h @contact.message
+%p
+  = link_to "Edit", edit_contact_path(@contact)
+  |
+  \#{link_to "Destroy", @contact, :confirm => 'Are you sure?', :method => :delete} |
+  \#{link_to "View All", contacts_path}

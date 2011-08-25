@@ -8,24 +8,30 @@ img.button {
   border: none;
 }
 
-.button {
+a.button {
   background-color: $button-background-color;
+  border: 2px solid $button-background-color;
   cursor: pointer;
-  border: none;
   display: inline-block;
   padding: 5px;
   margin: 5px;
   text-align: center;
   text-decoration: none;
   color: $content-background-color;
-  font-size: 1.2em;
+  font-size: 125%;
+  font-weight: bold;
   @include box-shadow($shadow-radius);
   @include corners-all($corner-radius);
+  opacity: .8;
 }
 
-.button:hover, .current {
-  background-color: $content-background-color;
-  color: black !important;
+a.button:hover {
+  opacity: 1;
+}
+
+a.current {
+  border: 2px solid $content-background-color;
+  opacity: 1;
 }
 
 .pagination .button{

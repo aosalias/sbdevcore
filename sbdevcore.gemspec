@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_dependency('sitemap_generator')
   s.add_dependency("hpricot")
   s.add_dependency("simple_form")
+  s.add_dependency("formalize-rails")
 end

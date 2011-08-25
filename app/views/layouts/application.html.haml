@@ -8,6 +8,9 @@
     = csrf_meta_tag
     = yield(:head)
   %body
+    #header
+      .inner
+        =render 'application/header'
     #container
       =render :template => "layouts/#{APP_CONFIG[:nav_style] rescue 'bar'}_nav.html.haml"
       #overlay.overlay

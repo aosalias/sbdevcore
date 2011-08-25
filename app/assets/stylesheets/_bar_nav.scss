@@ -1,5 +1,5 @@
 #nav {
-  width: $content-width;
+  width: $content-width - 4px;
   padding: 10px;
   background-color: $button-background-color;
 
@@ -8,7 +8,6 @@
     padding-left: 10px;
     padding-right: 10px;
     @include box-shadow(0);
-    border-right: black 2px;
   }
 }
 
@@ -18,20 +17,19 @@
 
 #main_container {
   @include box-shadow($shadow-radius);
-  @include corners-bottom($corner-radius);
+  @include corners-all($corner-radius);
   background-color: $content-background-color;
+  border: 2px solid silver;
   margin-top: 0px;
+  position: relative;
+  top: -45px;
   .content {
     @include box-shadow(0);
     @include corners-all(0);
     background-color: transparent;
   }
   #nav {
-    @include corners-all(0);
+    @include corners-top($corner-radius - 2px);
     @include box-shadow(0);
   }
-}
-
-#header {
-  background-color: $content-background-color;
 }

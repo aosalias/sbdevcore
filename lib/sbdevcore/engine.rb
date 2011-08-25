@@ -9,6 +9,7 @@ require 'sitemap_generator'
 require "hpricot"
 require "simple_form"
 require 'pg'
+require 'formalize-rails'
 require 'sbdevcore'
 
 module Sbdevcore

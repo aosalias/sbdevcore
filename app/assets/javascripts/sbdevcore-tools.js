@@ -132,6 +132,7 @@ function setOverlay(){
     onLoad: function(){
       setTooltip();
       set_validate()
+      setOverlay();
       if($('#overlay .mceEditor').length > 0){
         tinyMCE.execCommand('mceAddControl', false, $('.mceEditor').attr('id'));
       }
@@ -175,7 +176,7 @@ $(document).ready(function (){
   set_currents();
   setOverlay();
   setTooltip();
-  init_tinymce()
+  init_tinymce();
   $('.accordion').tabs(".accordion div.pane", {tabs: 'h4', effect: 'fade'})
   $(".items").tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
   $("#course_nav").tabs("#ajax_content", {effect: 'myAjax', history: true, initialIndex: null});

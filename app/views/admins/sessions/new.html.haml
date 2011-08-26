@@ -1,7 +1,7 @@
 %h2 Sign in
-= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:novalidate => true}) do |f|
-  = f.input :username, :required => true
-  = f.input :password, :required => true
+= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :validate => true) do |f|
+  = f.input :username
+  = f.input :password
   - if devise_mapping.rememberable?
     = f.input :remember_me, :as => :boolean
   = f.button :submit, "Sign in"

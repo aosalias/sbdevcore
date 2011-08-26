@@ -9,10 +9,8 @@
     }
   }
   textarea {
-    margin: 3px 100px 3px 0;
-    margin-right: 100px !important;
+    margin: 3px;
     display: inline;
-    width: 510px;
   }
 
   label {
@@ -39,7 +37,6 @@
 
 .error {
   height:15px;
-  display:none;
   font-size: 80%;
   z-index: 10001;
   p { margin: 0 }

@@ -5,6 +5,9 @@
 // the compiled file.
 //
 //= require jquery.tools.min.js
+//= require rails.validations
+//= require rails.validations.custom
 //= require tiny_mce_config.js
 //= require jquery.formalize
+//= require tinymce.jquery
 //= require sbdevcore-tools.js

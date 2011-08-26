@@ -2,6 +2,8 @@ class Video < ActiveRecord::Base
   belongs_to :index
   attr_accessible :name, :description, :index_id, :remote_id, :remote_type
 
+  validates_presence_of :name, :remote_id
+
   include ActsAsPrioritizable
   acts_as_prioritizable("index", "assets")
 

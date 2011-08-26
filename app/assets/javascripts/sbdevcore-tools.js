@@ -76,7 +76,7 @@ jQuery.fn.highlightDiv = function(){
       foo.removeClass('highlight-section');
     }
   );
-}
+};
 
 function remove_fields(link) {
     $(link).parent().prev("input[type=hidden]").val("1");
@@ -130,8 +130,7 @@ function setOverlay(){
 		},
 
     onLoad: function(){
-      setTooltip();
-      set_validate()
+      $('form[data-validate]', this.getOverlay()).validate();
       setOverlay();
       if($('#overlay .mceEditor').length > 0){
         tinyMCE.execCommand('mceAddControl', false, $('.mceEditor').attr('id'));
@@ -150,7 +149,7 @@ function setOverlay(){
 }
 
 function setTooltip(){
- $(".tooltipped").tooltip({layout: "<span/>", position: 'top center', offset: [-15,0], effect: 'fade', opacity: .8});
+ $(".tooltipped").tooltip({position: 'top center', offset: [-15,0], opacity: .8});
 }
 
 function spellcheck(){
@@ -172,12 +171,10 @@ $(document).ready(function (){
     $(this).highlightDiv();
   }); 
   paginateAjax();
-  set_validate()
   set_currents();
   setOverlay();
-  setTooltip();
   init_tinymce();
-  $('.accordion').tabs(".accordion div.pane", {tabs: 'h4', effect: 'fade'})
+  $('.accordion').tabs(".accordion div.pane", {tabs: 'h4', effect: 'fade'});
   $(".items").tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
   $("#course_nav").tabs("#ajax_content", {effect: 'myAjax', history: true, initialIndex: null});
   $('.overlay .close').click(function(){$(".error").hide();})

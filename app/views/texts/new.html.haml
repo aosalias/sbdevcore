@@ -1,4 +1,4 @@
-= simple_form_for @index, :html => { :multipart => true, :novalidate => true } do |f|
-  = f.association @text do |text_form|
+= simple_form_for @index, :html => { :multipart => true} do |f|
+  = f.simple_fields_for :texts, @text do |text_form|
     = render "texts/form", :locals => {:f => text_form}
   = f.button :submit

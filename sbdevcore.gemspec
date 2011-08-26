@@ -26,5 +26,10 @@ Gem::Specification.new do |s|
   s.add_dependency('sitemap_generator')
   s.add_dependency("hpricot")
   s.add_dependency("simple_form")
+  s.add_dependency("client_side_validations")
   s.add_dependency("formalize-rails")
+  s.add_dependency('will_paginate', "~> 3.0.pre4")
+  s.add_dependency('aws-s3')
+  s.add_dependency('rubyist-aasm')
+  s.add_dependency('inherited_resources')
 end

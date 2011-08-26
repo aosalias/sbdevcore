@@ -1,5 +1,5 @@
 - title "Edit Gallery"
-= simple_form_for @gallery, :html => { :multipart => true } do |f|
+= simple_form_for @gallery, :validate => true, :html => { :multipart => true } do |f|
   = f.error_messages
   = f.button :submit
   = render :partial => 'form'

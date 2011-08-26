@@ -1,6 +1,8 @@
 class Downloadable < ActiveRecord::Base
   belongs_to :index
-  attr_accessible :name, :description, :asset, :asset_file_name, :asset_content_type, :asset_file_size, :owner_id, :owner_type
+  attr_accessible :name, :description, :asset, :asset_file_name, :asset_content_type, :asset_file_size
+
+  validates_presence_of :name, :asset
 
   include ActsAsPrioritizable
   acts_as_prioritizable("index", "assets")

@@ -17,21 +17,19 @@ a.button {
   margin: 5px;
   text-align: center;
   text-decoration: none;
+  letter-spacing: 2px;
   color: $content-background-color;
-  font-size: 125%;
+  font-size: 130%;
   font-weight: bold;
   @include box-shadow($shadow-radius);
   @include corners-all($corner-radius);
   opacity: .8;
 }
 
-a.button:hover {
+a.button:hover, a.current {
   opacity: 1;
-}
-
-a.current {
-  border: 2px solid $content-background-color;
-  opacity: 1;
+  text-shadow: 0 0 10px white;
+  color: white;
 }
 
 .pagination .button{

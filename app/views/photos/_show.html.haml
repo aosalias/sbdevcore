@@ -1,4 +1,4 @@
-%div{:class => photo.klass}
+%div{:class => "#{photo.klass} asset"}
   = link_to image_tag(photo.asset.url(photo.which?), :alt => photo.name, :class => "tooltipped button"), photo, :rel=>"#overlay", :class => "overlayed"
   %span.tooltip
     %em

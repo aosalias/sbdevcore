@@ -12,6 +12,15 @@
       .inner
         =render 'application/header'
     #container
-      =render :template => "layouts/#{APP_CONFIG[:nav_style] rescue 'bar'}_nav.html.haml"
+      #main_container
+        = render 'application/nav'
+        .content.clearfix
+          #main
+            - flash.each do |name, msg|
+              = content_tag :div, msg, :id => "flash_#{name}"
+            = yield
+          #sidebar
+            = yield(:sidebar)
+        = render 'application/footer'
       #overlay.overlay
         .contentWrap

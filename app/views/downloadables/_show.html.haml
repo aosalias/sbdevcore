@@ -1,6 +1,7 @@
-= link_to downloadable.name.titleize, downloadable
-%p= downloadable.description
-- if admin_signed_in?
-  %p.asset-admin
-    = link_to "Remove Downloadable", downloadable, :confirm => 'Are you sure?', :method => :delete
-    = link_to "Edit Downloadable", edit_downloadable_path(downloadable), :rel=>"#overlay", :class => "overlayed"
+.asset
+  = link_to downloadable.name.titleize, downloadable
+  %p= downloadable.description
+  - if admin_signed_in?
+    %p.asset-admin
+      = link_to "Remove Downloadable", downloadable, :confirm => 'Are you sure?', :method => :delete
+      = link_to "Edit Downloadable", edit_downloadable_path(downloadable), :rel=>"#overlay", :class => "overlayed"

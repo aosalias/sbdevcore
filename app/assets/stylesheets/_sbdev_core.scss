@@ -7,6 +7,7 @@
 @import 'overlay';
 @import 'testimonials';
 @import 'forms';
+@import 'bar_nav';
 
 /*layout*/
 @font-face {
@@ -40,6 +41,7 @@ body {
       font-family: "28Days";
       text-shadow: 4px 4px 3px steelblue;
       display: inline-block;
+      font-weight: normal;
     }
   }
 }
@@ -145,17 +147,25 @@ form {
 }
 
 /*Flash*/
-#flash_notice, #flash_error {
+.asset {
+  padding: 5px;
+}
+
+.highlight-section {
+  padding: 4px;
+}
+
+#flash_notice, #flash_error, .error {
   padding: 5px 8px;
   margin: 10px 0;
 }
 
-#flash_notice {
+#flash_notice, .highlight-section, .error {
   background-color: #CFC;
   border: solid 1px #6C6;
 }
 
-#flash_error {
+#flash_error, .error {
   background-color: #FCC;
   border: solid 1px #C66;
 }
@@ -177,10 +187,6 @@ table.mceLayout {
 .asset-admin {
   margin: 0;
   text-align: center;
-}
-
-.highlight-section {
-  background-color: #FFE87C;
 }
 
 .justify_right {

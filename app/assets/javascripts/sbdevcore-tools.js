@@ -158,7 +158,7 @@ function spellcheck(){
 }
 
 function set_validate(){
-  $(".validate").validator({position: "right",message: '<div><em/></div>', offset: [19,5]});
+  $(".validate").validator({position: "right",message: '<div></div>', offset: [15,5]});
 }
 
 $(document).ready(function (){

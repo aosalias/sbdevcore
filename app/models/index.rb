@@ -1,8 +1,11 @@
 class Index < ActiveRecord::Base
-  attr_accessible :name, :page_title, :keywords, :page_description, :texts_attributes, :photos_attributes, :videos_attributes, :downloadables_attributes, :gallery_attributes
+  attr_accessible :name, :title, :page_title, :keywords, :page_description, :texts_attributes, :photos_attributes, :videos_attributes, :downloadables_attributes, :gallery_attributes
 
   has_many :indices, :as => :owner, :dependent => :destroy
   belongs_to :owner, :polymorphic => true
+
+  extend FriendlyId
+  friendly_id :name, :use => :slugged
 
   has_one :gallery, :dependent => :destroy
 

@@ -1,5 +1,5 @@
-%div{:class => "#{photo.klass} asset"}
-  = link_to photo, :rel=>"#overlay", :class => "overlayed" do
+%div{:class => "#{photo.klass} asset", :id => "photo#{photo.id}"}
+  = link_to photo, :rel=>"#overlay", :class => "overlayed", :"data-type" => "html" do
     = image_tag(photo.asset.url(photo.which?), :alt => photo.name, :class => "tooltipped button")
   - if admin_signed_in?
     %p.asset-admin

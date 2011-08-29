@@ -15,6 +15,7 @@ require 'will_paginate'
 require 'aws/s3'
 require 'aasm'
 require 'inherited_resources'
+require 'friendly_id'
 require 'sbdevcore'
 
 module Sbdevcore

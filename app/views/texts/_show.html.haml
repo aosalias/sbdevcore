@@ -1,4 +1,4 @@
-.asset
+.asset{:id => "text#{text.id}"}
   = raw text.content
   - if admin_signed_in?
     %p.asset-admin

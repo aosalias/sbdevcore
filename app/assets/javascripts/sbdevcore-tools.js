@@ -7,13 +7,6 @@ $.tools.tabs.addEffect("myAjax", function(tabIndex, done) {
  );
 });
 
-jQuery.ajaxSetup({
-  'beforeSend': function(xhr) {
-      // First unset it, then set (which otherwise appends)
-      xhr.setRequestHeader("Accept", "text/javascript");
-    }
-});
-
 jQuery.fn.submitWithAjax = function () {
   this.submit(function () {
     $.post($(this).attr('action'), $(this).serialize(), null, "script");
@@ -107,12 +100,12 @@ function set_currents(){
   }
 }
 
-function paginateAjax(){
-  $('.pagination').children().addClass('button corner-all box-shadow');
+function paginateAjax(context){
+  $('.pagination', context).children().addClass('button corner-all box-shadow');
 }
 
-function setOverlay(){
-  $(".overlayed").overlay({
+function setOverlay(context){
+  $(".overlayed", context).overlay({
     fixed: false,
     target: '#overlay',
 		onBeforeLoad: function() {
@@ -130,11 +123,10 @@ function setOverlay(){
 		},
 
     onLoad: function(){
-      $('form[data-validate]', this.getOverlay()).validate();
-      setOverlay();
       if($('#overlay .mceEditor').length > 0){
         tinyMCE.execCommand('mceAddControl', false, $('.mceEditor').attr('id'));
       }
+      bind_functions("#overlay");
     },
 
     onBeforeClose: function(){
@@ -142,41 +134,33 @@ function setOverlay(){
         tinyMCE.execCommand('mceFocus', false, $('.mceEditor').attr('id'));
         tinyMCE.execCommand('mceRemoveControl', false, $('.mceEditor').attr('id'));
       }
-      this.getOverlay().find(".contentWrap").html("");
-      $(".error").hide();
     }
 	});
 }
 
 function setTooltip(){
- $(".tooltipped").tooltip({position: 'top center', offset: [-15,0], opacity: .8});
+ $(".tooltipped").tooltip({layout: "<span/>", position: 'top center', offset: [-15,0], effect: 'fade', opacity: .8});
 }
 
-function spellcheck(){
-  $('.mceEditor iframe').contents().find('body').attr("spellcheck", true);
+function spellcheck(context){
+  $('.mceEditor iframe', context).contents().find('body').attr("spellcheck", true);
 }
 
-function set_validate(){
-  $(".validate").validator({position: "right",message: '<div></div>', offset: [15,5]});
+function bind_functions(context){
+  $('.asset-admin a', context).each(function(){
+    $(this).highlightDiv();
+  });
+  setOverlay(context);
+  spellcheck(context);
+  $('form[data-validate]', context).validate();
+  $(".scrollable", context).scrollable();
+  paginateAjax(context);
+  $(".items", context).tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
 }
 
 $(document).ready(function (){
-  $('.ajax_form').submitWithAjax();
-  $('.ajax_link').ajaxLink();
-  $('.ajax_delete').ajaxDelete();
-  $('.toggle_link').toggleable();
-  $('.toggle_link').first().click();
-  $(".scrollable").scrollable();
-  $('.asset-admin a').each(function(){
-    $(this).highlightDiv();
-  }); 
-  paginateAjax();
-  set_currents();
-  setOverlay();
+  bind_functions(document);
   init_tinymce();
-  $('.accordion').tabs(".accordion div.pane", {tabs: 'h4', effect: 'fade'});
-  $(".items").tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
-  $("#course_nav").tabs("#ajax_content", {effect: 'myAjax', history: true, initialIndex: null});
-  $('.overlay .close').click(function(){$(".error").hide();})
+  set_currents();
 });
  

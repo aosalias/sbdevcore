@@ -1,4 +1,4 @@
-.center.asset
+.center.asset{:id => "video#{video.id}"}
   = "<h3>#{video.name}</h3>" unless video.name.blank?
   %object{:align => "c", :height => "390", :width => "520"}
     %param{:name => "movie", :value => video.url}/

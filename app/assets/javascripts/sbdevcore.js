@@ -10,4 +10,5 @@
 //= require tiny_mce_config.js
 //= require jquery.formalize
 //= require tinymce.jquery
+//= require sbdev-ajax.js
 //= require sbdevcore-tools.js

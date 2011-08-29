@@ -1,4 +1,4 @@
-.asset
+.asset{:id => "downloadable#{downloadable.id}"}
   = link_to downloadable.name.titleize, downloadable
   %p= downloadable.description
   - if admin_signed_in?

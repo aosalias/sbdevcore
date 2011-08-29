@@ -36,6 +36,7 @@ Index.all.each(&:destroy)
 [statics + dynamics].flatten.each do |index|
   attr = {
     :name => index,
+    :title => index,
     :page_title => APP_CONFIG[:app_name] + " - " + index.capitalize,
     :page_description => APP_CONFIG[:app_name] + " - " + index.capitalize,
     :keywords => index,
@@ -43,28 +44,28 @@ Index.all.each(&:destroy)
       (id += 1).to_s =>{
         :content => "#{LOREM_LONG}",
         :priority => "1"
-#        :photos_attributes => {
-#          (id += 1).to_s => {
-#            :asset => File.open("#{RAILS_ROOT}/db/seeds/sunset-1.jpg", 'rb'),
-#            :klass => "right",
-#            :title => "sunset",
-#            :priority => "1",
-#            :description => LOREM_SANS_HTML
-#          }
-#        }
       }
-#      (id += 1).to_s =>{
-#        :priority => "2",
-#        "videos_attributes" => {
-#          (id += 1).to_s =>{
-#            :remote_type => "Youtube",
-#            :remote_id => "lbROjOciOZA",
-#            :priority => 1,
-#            :title => "Roatan Diving"
-#          }
-#        }
-#      }
     }
   }
   Index.create(attr)
+end
+
+statics.each do |index|
+  3.times do |i|
+    sub_index = index + "_#{i.to_s}"
+    attr = {
+      :name => sub_index,
+      :title => sub_index,
+      :page_title => APP_CONFIG[:app_name] + " - " + sub_index.capitalize,
+      :page_description => APP_CONFIG[:app_name] + " - " + sub_index.capitalize,
+      :keywords => sub_index,
+      :texts_attributes => {
+        (id += 1).to_s =>{
+          :content => "#{LOREM_LONG}",
+          :priority => "1"
+        }
+      }
+    }
+    Index.find(index).indices.create!(attr)
+  end
 end

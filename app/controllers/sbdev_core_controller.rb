@@ -1,29 +1,35 @@
 class SbdevCoreController < InheritedResources::Base
   protect_from_forgery
 
-  respond_to :html, :js
+  respond_to :html
 
   before_filter :authenticate_admin!, :except => [:show, :index]
   before_filter :get_index, :only => [:index]
 
   layout "application"
 
+  def show
+    show!(:layout => !request.xhr?)
+  end
+
+  def new
+    new!(:layout => !request.xhr?)
+  end
+
   def create
-    create! do |format|
-      format.html { redirect_to :back }
-    end
+    create!{ request.referer }
+  end
+
+  def edit
+    edit!(:layout => !request.xhr?)
   end
 
   def update
-    update! do |format|
-      format.html { redirect_to :back }
-    end
+    update!{ request.referer }
   end
 
   def destroy
-    destroy! do |format|
-      format.html { redirect_to :back }
-    end
+    destroy!{ request.referer }
   end
 
   private

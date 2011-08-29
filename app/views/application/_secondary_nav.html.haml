@@ -1,0 +1,3 @@
+#secondary_nav
+  -obj.indices.each do |page|
+    = link_to page.title, page.title, :class => 'button', :remote => true, :rel => '#main'

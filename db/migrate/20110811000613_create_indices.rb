@@ -2,6 +2,8 @@ class CreateIndices < ActiveRecord::Migration
   def change
     create_table :indices do |t|
       t.string :name
+      t.string :title
+      t.string :slug
       t.string :page_title
       t.text :keywords
       t.text :page_description
@@ -10,5 +12,6 @@ class CreateIndices < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :indices, :slug, :unique => true
   end
 end

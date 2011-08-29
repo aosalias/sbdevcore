@@ -1,4 +1,4 @@
-= simple_form_for @index, :html => { :multipart => true} do |f|
+= simple_form_for @index, :validate => true, :html => { :multipart => true} do |f|
   = f.simple_fields_for :downloadables, @downloadable do |downloadable_form|
     = render "downloadables/form", :locals => {:f => downloadable_form}
   = f.button :submit

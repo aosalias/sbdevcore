@@ -32,4 +32,5 @@ Gem::Specification.new do |s|
   s.add_dependency('aws-s3')
   s.add_dependency('rubyist-aasm')
   s.add_dependency('inherited_resources')
+  s.add_dependency("friendly_id", "~> 4.0.0.beta8")
 end

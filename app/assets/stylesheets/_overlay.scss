@@ -2,10 +2,9 @@
 
   /* must be initially hidden */
   display:none;
-
   /* place overlay on top of other elements */
   z-index:10000;
-
+  position: absolute;
   /* styling */
   background-color: $content-background-color;
 

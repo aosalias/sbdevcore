@@ -1,0 +1,4 @@
+=content_for(:sidebar) do 
+  =render :partial => "application/secondary_nav", :object => resource, :as => :obj
+
+=(render :partial => 'show', :object => resource, :as => resource_class.to_s.downcase.to_sym)

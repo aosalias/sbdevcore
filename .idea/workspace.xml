@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="ajax">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/sbdev_core_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/indices/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110815163647_create_photos.rb" afterPath="$PROJECT_DIR$/db/migrate/20110815163647_create_photos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sbdev_core/show.html.haml" afterPath="$PROJECT_DIR$/app/views/sbdev_core/show.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/indices/index.html.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sbdev_core/index.html.haml" afterPath="$PROJECT_DIR$/app/views/sbdev_core/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" afterPath="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_mixins.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" afterPath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/layout_helper.rb" afterPath="" />
+    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.html4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_show.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_nav.html.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/sbdev_core/show.js.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.adapter.jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_prioritizable_fields.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_prioritizable_fields.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/photos/_form.html.haml" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sbdev-ajax.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sbdev-ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.6806723">
+            <state line="29" column="24" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.73109245">
               <folding />
             </state>
           </provider>
@@ -83,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_footer.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
         <option value="$PROJECT_DIR$/app/helpers/layout_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
@@ -99,6 +81,7 @@
         <option value="$PROJECT_DIR$/app/views/indices/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
+        <option value="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" />
       </list>
     </option>
   </component>
@@ -529,6 +512,7 @@
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,7 +525,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -560,7 +543,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax history" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -585,6 +568,7 @@
     <MESSAGE value="typography" />
     <MESSAGE value="forms and inheritable&#10;" />
     <MESSAGE value="ajax" />
+    <MESSAGE value="ajax history" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,27 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/tasks/sbdevcore.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.122199595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="355" selection-end="355" vertical-scroll-proportion="0.21995927">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/history.adapter.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/history.html4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -702,9 +665,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sbdevcore.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.09775967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.6806723">
+        <state line="29" column="24" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.73109245">
           <folding />
         </state>
       </provider>

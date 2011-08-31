@@ -26,10 +26,8 @@ module Sbdevcore
       def set_routes
         route "Sbdevcore::Routes.draw(self)"
         statics = <<-STR
-Index.find_all_by_name(APP_CONFIG[:static_pages]).each do |page|
-    match page.name => "indices#show", :id => page.id, :as => page.name.to_sym
-  end rescue true
   root :to => "indices#show", :id => (Index.find_by_name('home').id rescue 1)
+  match "(:id)" => "indices#show"
         STR
         route statics
       end

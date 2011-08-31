@@ -36,9 +36,9 @@ Index.all.each(&:destroy)
 [statics + dynamics].flatten.each do |index|
   attr = {
     :name => index,
-    :title => index,
-    :page_title => APP_CONFIG[:app_name] + " - " + index.capitalize,
-    :page_description => APP_CONFIG[:app_name] + " - " + index.capitalize,
+    :title => index.titleize,
+    :page_title => APP_CONFIG[:app_name] + " - " + index.titleize,
+    :page_description => APP_CONFIG[:app_name] + " - " + index.titleize,
     :keywords => index,
     :texts_attributes => {
       (id += 1).to_s =>{
@@ -55,9 +55,9 @@ statics.each do |index|
     sub_index = index + "_#{i.to_s}"
     attr = {
       :name => sub_index,
-      :title => sub_index,
-      :page_title => APP_CONFIG[:app_name] + " - " + sub_index.capitalize,
-      :page_description => APP_CONFIG[:app_name] + " - " + sub_index.capitalize,
+      :title => sub_index.titleize,
+      :page_title => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
+      :page_description => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
       :keywords => sub_index,
       :texts_attributes => {
         (id += 1).to_s =>{

@@ -8,6 +8,10 @@ class SbdevCoreController < InheritedResources::Base
 
   layout "application"
 
+  def index
+    index!(:layout => !request.xhr?)
+  end
+
   def show
     show!(:layout => !request.xhr?)
   end

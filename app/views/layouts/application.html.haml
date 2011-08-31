@@ -1,8 +1,8 @@
 %html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
   %head
-    %title=yield(:title) || APP_CONFIG[:app_name]
-    %meta{:name => 'description', :content => "#{(yield(:description) || APP_CONFIG[:app_name])}"}
-    %meta{:name => 'keywords', :content => "#{(yield(:keywords) || APP_CONFIG[:app_name])}"}
+    %title=yield(:title)
+    %meta{:name => 'description', :content => yield(:description)}
+    %meta{:name => 'keywords', :content => yield(:keywords)}
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'application'
     = csrf_meta_tag
@@ -14,13 +14,13 @@
     #container
       #main_container
         = render 'application/nav'
+        - flash.each do |name, msg|
+          = content_tag :div, msg, :id => "flash_#{name}"
         .content.clearfix
-          #main
-            - flash.each do |name, msg|
-              = content_tag :div, msg, :id => "flash_#{name}"
-            = yield
           #sidebar
             = yield(:sidebar)
+          #main
+            = yield
         = render 'application/footer'
       #overlay.overlay
         .contentWrap

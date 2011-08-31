@@ -2,4 +2,4 @@
 - if(f.object.prioritizables.empty? rescue true)
   = f.hidden_field :priority
 - else
-  = f.input :priority, :as => :select, :collection => (f.object.prioritizables.each_with_index.map{|p,i| [(i+1).ordinalize, p.priority]} + [['Last',f.object.lowest_priority+1]]), :include_blank => false
+  = f.input :priority, :collection => (f.object.prioritizables.each_with_index.map{|p,i| [(i+1).ordinalize, p.priority]} + [['Last',f.object.lowest_priority+1]]), :include_blank => false

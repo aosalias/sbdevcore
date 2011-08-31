@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
+    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="ajax">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/sbdev_core_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/indices/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110815163647_create_photos.rb" afterPath="$PROJECT_DIR$/db/migrate/20110815163647_create_photos.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sbdev_core/show.html.haml" afterPath="$PROJECT_DIR$/app/views/sbdev_core/show.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/indices/index.html.haml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sbdev_core/index.html.haml" afterPath="$PROJECT_DIR$/app/views/sbdev_core/index.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" afterPath="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_mixins.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" afterPath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/layout_helper.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.html4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_show.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_nav.html.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/sbdev_core/show.js.haml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/history.adapter.jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_prioritizable_fields.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_prioritizable_fields.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/photos/_form.html.haml" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,46 +52,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <file leaf-file-name="sbdevcore-tools.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="22" selection-start="2941" selection-end="2941" vertical-scroll-proportion="0.0">
+            <state line="110" column="10" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+      <file leaf-file-name="sbdev-ajax.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downloadables_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/downloadables_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.024439918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_show.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/photos/_show.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="29" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.6806723">
               <folding />
             </state>
           </provider>
@@ -83,22 +83,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/photos/_show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/downloadables/_show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/texts/_show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/videos/_show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_footer.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/_overlay.scss" />
-        <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
-        <option value="$PROJECT_DIR$/app/views/downloadables/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/photos/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/helpers/layout_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
+        <option value="$PROJECT_DIR$/lib/tasks/sbdevcore.rake" />
+        <option value="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/sbdev_core/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/sbdev_core/index.html.haml" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
-        <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/indices/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
       </list>
     </option>
   </component>
@@ -128,9 +128,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Favorites" />
       <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,18 +152,177 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdev_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sbdevcore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../templates" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: core">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -369,20 +527,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293201" sideWeight="0.6619898" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293201" sideWeight="0.6619898" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -439,108 +597,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/sbdevcore.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.29327902">
+        <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.122199595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="9" column="4" selection-start="355" selection-end="355" vertical-scroll-proportion="0.21995927">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="129" selection-end="129" vertical-scroll-proportion="0.07739308" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_overlay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.09775967" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/videos/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/history.adapter.jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/photos/edit.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/history.html4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/photos/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.09775967">
+        <state line="12" column="19" selection-start="607" selection-end="607" vertical-scroll-proportion="0.29327902">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/downloadables/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/helpers/sbdev_core_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/downloadables/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="103" selection-start="4277" selection-end="4277" vertical-scroll-proportion="0.6092437">
+        <state line="6" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="0.14663951">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="22" selection-start="2941" selection-end="2941" vertical-scroll-proportion="0.0">
+        <state line="59" column="78" selection-start="3228" selection-end="3228" vertical-scroll-proportion="1.4873949">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/application/_secondary_nav.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="92" selection-start="231" selection-end="231" vertical-scroll-proportion="0.076271184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sbdev_core/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="77" selection-start="171" selection-end="171" vertical-scroll-proportion="0.016282225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sbdev_core/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="104" selection-end="272" vertical-scroll-proportion="0.1302578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/indices/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="0.1904762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/indices/_show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="958" selection-end="958" vertical-scroll-proportion="0.30769232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/downloadables_controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/templates/application/_nav.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+        <state line="2" column="27" selection-start="79" selection-end="79" vertical-scroll-proportion="0.031746034">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/photos/_show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="110" column="10" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.024439918">
+        <state line="29" column="22" selection-start="939" selection-end="939" vertical-scroll-proportion="0.6806723">
           <folding />
         </state>
       </provider>

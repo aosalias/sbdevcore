@@ -1,9 +1,8 @@
--logger.info local_assigns
 - index ||= local_assigns[:index]
 - render_seo index
 %div{:id => "index#{index.id}"}
-  %h2.title=index.title.titleize
-  .clearfix= render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset
+  %h1.title=index.title.titleize
+  = render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset
   - if admin_signed_in?
     .asset
       %p.asset-admin
@@ -15,3 +14,11 @@
     - content_for :post_content do
       .content.corner-all.box-shadow
         = render :partial => "shared/gallery", :locals => {:objs => index.gallery.assets}
+- if request.xhr?
+  .content_for.hidden
+    #content_for_title
+      =@view_flow.get(:title)
+    #content_for_keywords
+      =@view_flow.get(:keywords)
+    #content_for_page_description
+      =@view_flow.get(:page_description)

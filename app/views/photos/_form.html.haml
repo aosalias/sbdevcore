@@ -2,9 +2,9 @@
 - f ||= local_assigns[:locals][:f]
 %div{:id => f.object.id.to_s}
   - if f.object.asset_file_name
-    = image_tag f.object.asset.url(:thumb), :width => "100"
+    = image_tag f.object.asset.url(:thumb), :width => "100", :class => "left"
   = f.input :name
-  = f.input :asset, :required => (f.object.asset_file_name.blank? ? true : false), :as => :file, :label => "Photo"
+  = f.input :asset, :as => :file, :label => "Photo", :input_html => {:validate => ( f.object.asset_file_name.blank? ? true : false) }
   = f.input :description, :input_html => { :cols => 70, :rows => 3 }
   = f.input :klass, :as => :radio, :collection => ["left", "right", "center"], :label => "Alignment"
   = render "shared/prioritizable_fields", :locals => {:f => f}

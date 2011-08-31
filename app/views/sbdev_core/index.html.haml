@@ -1,1 +1,8 @@
-= render :partial => 'indices/show', :object => @index, :as => :index
+=content_for(:sidebar) do
+  =render :partial => "application/secondary_nav", :collection => collection
+
+=(render :partial => 'indices/show', :object => @index, :as => :index)
+- if request.xhr?
+  .content_for.hidden
+    #content_for_sidebar
+      =@view_flow.get(:sidebar)

@@ -47,14 +47,42 @@ body {
 }
 
 #main {
-  width: 75%;
-  float: left;
+//  float: left;
 }
 
-#side_bar {
-  width: 24%;
-  float: left;
+#sidebar {
+  width: 30%;
+  float: right;
+  background-color: $content-background-color;
   border-left: 1px dashed silver;
+  #secondary_nav {
+    .button {
+      position: relative;
+      width: 90%;
+      padding-right: 20px;
+      @include corners-left($corner-radius);
+      float: right;
+      right: -20px;
+      @include box-shadow(0);
+    }
+    .secondary {
+      width: 88%;
+      border-top: 1px dashed silver;
+      @include corners-all(0);
+    }
+  }
+}
+
+.title {
+  width: 67%;
+  background-color: $button-background-color;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0;
+  color: $content-background-color;
+  position: relative;
+  left: -10px;
+  @include corners-right($corner-radius);
 }
 
 .content {
@@ -181,6 +209,10 @@ form {
   border: solid 1px #C66;
 }
 
+#flash_notice, #flash_error{
+  margin: 10px;
+}
+
 .fieldWithErrors {
   display: inline;
 }
@@ -226,7 +258,12 @@ td {
 
 .ajax-loader {
   background: url('/assets/ajax-loader.gif') center center no-repeat;
-  * {
-    opacity: .5;
+  z-index: 1;
+  *{
+    opacity: .8;
   }
+}
+
+.hidden {
+  display: none;
 }

@@ -1,3 +1,4 @@
 #secondary_nav
-  -obj.indices.each do |page|
-    = link_to page.title, page.title, :class => 'button', :remote => true, :rel => '#main'
+  = link_to @index.title.titleize, collection_url, :class => 'button current', :remote => true
+  -collection.each do |page|
+    = link_to page.index.title.titleize, page, :class => 'button secondary', :remote => true

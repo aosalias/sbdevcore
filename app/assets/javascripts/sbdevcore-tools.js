@@ -93,10 +93,10 @@ function add_nested(link, association, content, hide) {
 }
 
 function set_currents(){
-  $('#nav [href="'+window.location.pathname.match(/\/\w*/i)+'"]').addClass("current");
-  $('#nav [href="'+window.location.pathname+'"]').addClass("current");
+  $('[href="'+window.location.pathname.match(/\/\w*/i)+'"]').addClass("current");
+  $('[href="'+window.location.pathname+'"]').addClass("current");
   if(window.location.pathname === '/') {
-    $('#nav [href="/home"]').addClass("current");
+    $('[href="/home"]').addClass("current");
   }
 }
 
@@ -156,11 +156,11 @@ function bind_functions(context){
   $(".scrollable", context).scrollable();
   paginateAjax(context);
   $(".items", context).tabs("#gallery_wrap div", {effect: 'myAjax', history: true, rotate: true}).slideshow({clickable: false, history: true});
+  set_currents();
 }
 
 $(document).ready(function (){
   bind_functions(document);
   init_tinymce();
-  set_currents();
 });
  

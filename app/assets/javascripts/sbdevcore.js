@@ -10,5 +10,8 @@
 //= require tiny_mce_config.js
 //= require jquery.formalize
 //= require tinymce.jquery
+//= require history.adapter.jquery
+//= require history
+//= require history.html4
 //= require sbdev-ajax.js
 //= require sbdevcore-tools.js

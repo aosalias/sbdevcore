@@ -25,8 +25,7 @@ $(document).ready(function (){
   });
 
   $("a[data-remote]").live('ajax:complete', function(status, xhr) {
-
-    ajax_complete_defaults("#main",xhr.responseText);
+    ajax_complete_defaults(xhr.responseText);
     $($(this).closest('div')).find('.current').removeClass('current');
     $(this).addClass('current');
     ajaxed = true;
@@ -38,7 +37,7 @@ $(document).ready(function (){
       var url = History.getState().url.replace(History.getRootUrl(),'');
       $.ajax({
         url: url,
-        success: [function(data) {History.pushState(null,'',url)},function(data) {ajax_complete_defaults("#main", data);}] 
+        success: [function(data) {History.pushState(null,'',url)},function(data) {ajax_complete_defaults(data);}] 
       });
     } else {
       ajaxed = false;

@@ -111,11 +111,11 @@ ol, ul, dl {
 
 ol li {
   /*giving OL's LIs generated numbers*/
-  list-style: decimal outside; }
+  list-style: decimal inside; }
 
 ul li {
   /*giving UL's LIs generated disc markers*/
-  list-style: disc outside; }
+  list-style: disc inside; }
 
 dl dd {
   /*providing spacing for definition terms*/

@@ -5,6 +5,7 @@ module Sbdevcore
       argument :app_name, :type => :string
 
       def remove_bs
+        directory "config", "config", :force => true
         remove_file 'public/index.html'
         remove_file 'public/images/rails.png'
         remove_file 'app/views/layouts/application.html.erb'
@@ -12,7 +13,6 @@ module Sbdevcore
       end
 
       def database
-        directory "config", "config", :force => true
         template  'database.yml', 'config/database.yml', :force => true
         rake "db:drop:all"
         rake "db:create"

@@ -13,5 +13,5 @@
 //= require history.adapter.jquery
 //= require history
 //= require history.html4
-//= require sbdev-ajax.js
 //= require sbdevcore-tools.js
+//= require sbdev-ajax.js

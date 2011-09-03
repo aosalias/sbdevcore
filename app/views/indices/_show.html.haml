@@ -6,6 +6,7 @@
   - if admin_signed_in?
     .asset
       %p.asset-admin
+        = link_to "Edit Page", edit_index_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Text", new_index_text_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Photo", new_index_photo_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Video", new_index_video_path(index.id), :rel=>"#overlay", :class => "overlayed"

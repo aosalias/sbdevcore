@@ -53,22 +53,31 @@ body {
 #sidebar {
   width: 30%;
   float: right;
+  margin-left: 5px;
   background-color: $content-background-color;
   border-left: 1px dashed silver;
   #secondary_nav {
     .button {
       position: relative;
       width: 90%;
-      padding-right: 20px;
       @include corners-left($corner-radius);
+      font-size: 101%;
       float: right;
-      right: -20px;
+      right: -10px;
       @include box-shadow(0);
+      text-align: left;
     }
     .secondary {
-      width: 88%;
+      width: 84%;
+      float: left;
+      margin-left: 20px;
       border-top: 1px dashed silver;
       @include corners-all(0);
+    }
+    li:hover {
+      & .tertiary_nav {
+        display: inline;
+      }
     }
   }
 }

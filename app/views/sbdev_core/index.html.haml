@@ -1,5 +1,5 @@
 =content_for(:sidebar) do
-  =render :partial => "application/secondary_nav", :collection => collection
+  =render :partial => "application/secondary_nav"
 
 =(render :partial => 'indices/show', :object => @index, :as => :index)
 - if request.xhr?

@@ -8,7 +8,6 @@ $.ajaxSetup({
 function ajax_complete_defaults(data){
   $("#main").removeClass('ajax-loader');
   $("#main").html(data);
-  bind_functions("#main");
   $('title').html($("#content_for_title").html());
   $("#content_for_title").remove();
   $("meta[name='description']").attr("content",$("#content_for_page_description").html());
@@ -17,6 +16,7 @@ function ajax_complete_defaults(data){
   $("#content_for_keywords").remove();
   $('#sidebar').html($("#content_for_sidebar").html());
   $("#content_for_sidebar").remove();
+  bind_functions("#main");
 }
 
 $(document).ready(function (){
@@ -25,11 +25,9 @@ $(document).ready(function (){
   });
 
   $("a[data-remote]").live('ajax:complete', function(status, xhr) {
-    ajax_complete_defaults(xhr.responseText);
-    $($(this).closest('div')).find('.current').removeClass('current');
-    $(this).addClass('current');
     ajaxed = true;
     History.pushState(null,'',$(this).attr('href'));
+    ajax_complete_defaults(xhr.responseText);
   });
 
   $(window).bind('statechange',function(){

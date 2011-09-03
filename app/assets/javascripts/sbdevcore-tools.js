@@ -93,6 +93,7 @@ function add_nested(link, association, content, hide) {
 }
 
 function set_currents(){
+  $(".button").removeClass('current');
   $('[href="'+window.location.pathname.match(/\/\w*/i)+'"]').addClass("current");
   $('[href="'+window.location.pathname+'"]').addClass("current");
   if(window.location.pathname === '/') {
@@ -108,6 +109,7 @@ function setOverlay(context){
   $(".overlayed", context).overlay({
     fixed: false,
     target: '#overlay',
+    top: 0,
 		onBeforeLoad: function() {
 			var wrap = this.getOverlay().find(".contentWrap");
 			var url = this.getTrigger().attr("href");

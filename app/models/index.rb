@@ -6,6 +6,9 @@ class Index < ActiveRecord::Base
 
   before_validation :default_name
 
+  extend FriendlyId
+  friendly_id :name, :use => :slugged
+
   include ActsAsPrioritizable
   acts_as_prioritizable("owner", "indices")
   default_scope :order => 'priority ASC'
@@ -15,9 +18,6 @@ class Index < ActiveRecord::Base
 
   has_many :indices, :as => :owner, :dependent => :destroy
   belongs_to :owner, :polymorphic => true
-
-  extend FriendlyId
-  friendly_id :name, :use => :slugged
 
   has_one :gallery, :dependent => :destroy
 

@@ -16,6 +16,8 @@ function ajax_complete_defaults(data){
   $("#content_for_keywords").remove();
   $('#sidebar').html($("#content_for_sidebar").html());
   $("#content_for_sidebar").remove();
+  $('#post_content').html($("#content_for_post_content").html());
+  $("#content_for_post_content").remove();
   bind_functions("#main");
 }
 

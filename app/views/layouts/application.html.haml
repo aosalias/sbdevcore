@@ -21,6 +21,7 @@
             = yield(:sidebar)
           #main
             = yield
+            = yield(:post_content)
         = render 'application/footer'
       #overlay.overlay
         .contentWrap

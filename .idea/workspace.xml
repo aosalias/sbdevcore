@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="ajax history">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/downloadables/new.html.haml" afterPath="$PROJECT_DIR$/app/views/downloadables/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/texts/new.html.haml" afterPath="$PROJECT_DIR$/app/views/texts/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
+    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_gallery.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/index.rb" afterPath="$PROJECT_DIR$/app/models/index.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/indices_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/indices_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/galleries/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/gallery.rb" afterPath="$PROJECT_DIR$/app/models/gallery.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/galleries/_show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/new.html.haml" afterPath="$PROJECT_DIR$/app/views/photos/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb" afterPath="$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_show.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/galleries/edit.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/config/initializers/simple_form.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galleries/new.html.haml" afterPath="$PROJECT_DIR$/app/views/galleries/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/indices/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss" afterPath="$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/load_app_config.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/videos/new.html.haml" afterPath="$PROJECT_DIR$/app/views/videos/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sbdev_core_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/engine.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/engine.rb" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,7 +65,7 @@
       <file leaf-file-name="_gallery.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="18" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.7881356">
+            <state line="6" column="12" selection-start="142" selection-end="142" vertical-scroll-proportion="0.15254237">
               <folding />
             </state>
           </provider>
@@ -678,6 +651,7 @@
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -690,7 +664,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -709,7 +682,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax history" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -735,6 +708,7 @@
     <MESSAGE value="forms and inheritable&#10;" />
     <MESSAGE value="ajax" />
     <MESSAGE value="ajax history" />
+    <MESSAGE value="gallery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,7 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="18" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.7881356">
+        <state line="6" column="12" selection-start="142" selection-end="142" vertical-scroll-proportion="0.15254237">
           <folding />
         </state>
       </provider>

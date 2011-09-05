@@ -1,4 +1,3 @@
-= simple_form_for @index, :html => { :multipart => true} do |f|
-  = f.simple_fields_for :texts, @text do |text_form|
-    = render "texts/form", :locals => {:f => text_form}
+= simple_form_for [@index, @text], :html => { :multipart => true} do |f|
+  = render "texts/form", :locals => {:f => f}
   = f.button :submit

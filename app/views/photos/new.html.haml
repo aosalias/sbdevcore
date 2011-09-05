@@ -1,4 +1,3 @@
-= simple_form_for @index, :validate => true, :html => { :multipart => true} do |f|
-  = f.simple_fields_for :photos, @photo do |photo_form|
-    = render "photos/form", :locals => {:f => photo_form}
+= simple_form_for [@index, @photo], :validate => true, :html => { :multipart => true} do |f|
+  = render "photos/form", :locals => {:f => f}
   = f.button :submit

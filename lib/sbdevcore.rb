@@ -14,7 +14,9 @@ module Sbdevcore
         resources :videos
         resources :downloadables
         resources :texts
-        resources :galleries
+        resources :galleries do
+          resources :indices
+        end
 
         resources :indices do
           resources :photos

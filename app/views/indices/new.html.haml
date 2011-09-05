@@ -1,0 +1,3 @@
+= simple_form_for [@gallery, @index], :html => { :multipart => true} do |f|
+  = render "indices/form", :locals => {:f => f}
+  = f.button :submit

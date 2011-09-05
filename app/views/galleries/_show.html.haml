@@ -1,0 +1,15 @@
+- indices ||= local_assigns[:indices]
+#gallery.clearfix
+  .scroll_nav.clearfix
+    %a{:class => "#{'no_back ' unless (indices.size > 4)}prev browse left"}
+    .scrollable.corner-all.nav
+      .items.ajax-nav
+        - indices.each_with_index do |index, i|
+          =raw '<div>' if i%4 == 0
+          = link_to image_tag(index.photo.try(:url,:thumb), :alt => index.title), index, :class => "button#{' current' if index.id == indices.first.id}"
+          =raw '</div>' if (i%4 == 3 || i == indices.size-1)
+    %a{:class => "#{'no_back ' unless (indices.size > 4)}next browse right"}
+  #gallery_wrap.clearfix
+    %a{:class => "#{'no_back ' unless (indices.size > 1)}backward browse left"}
+    %a{:class => "#{'no_back ' unless (indices.size > 1)}forward browse right"}
+    #gallery_wrap_inner

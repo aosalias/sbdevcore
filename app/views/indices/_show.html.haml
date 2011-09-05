@@ -1,21 +1,24 @@
 - index ||= local_assigns[:index]
 - render_seo index
-%div{:id => "index#{index.id}"}
+.asset
   %h1.title=index.title.titleize
   = render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset
   - if admin_signed_in?
     .asset
       %p.asset-admin
-        = link_to "Edit Page", edit_index_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Text", new_index_text_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Photo", new_index_photo_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Video", new_index_video_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Downloadable File", new_index_downloadable_path(index.id), :rel=>"#overlay", :class => "overlayed"
-  - unless index.gallery.nil?
-    - content_for :post_content do
-      .content.corner-all.box-shadow
-        = render :partial => "shared/gallery", :locals => {:objs => index.gallery.assets}
-- if request.xhr?
+        = link_to "Add Gallery", new_index_gallery_path(index.id), :rel=>"#overlay", :class => "overlayed" if (index.gallery.nil? && !index.owner.is_a?(Gallery))
+    %p.asset-admin
+      = link_to "Edit Page", edit_index_path(index.id), :rel=>"#overlay", :class => "overlayed"
+    - unless index.gallery.nil?
+      .asset
+        %p.asset-admin
+          = link_to "Add Gallery Page", new_gallery_index_path(index.gallery.id), :rel=>"#overlay", :class => "overlayed"
+        = render :partial => "galleries/show", :object => index.gallery.indices, :as => :indices
+- if(request.xhr?)
   .content_for.hidden
     #content_for_title
       =@view_flow.get(:title)

@@ -39,6 +39,6 @@ class SbdevCoreController < InheritedResources::Base
   private
 
   def get_index
-    @index = Index.find_by_name(controller_name)
+    @index = Index.find(controller_name)
   end
 end

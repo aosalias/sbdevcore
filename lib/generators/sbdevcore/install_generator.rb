@@ -5,6 +5,7 @@ module Sbdevcore
       argument :app_name, :type => :string
 
       def remove_bs
+        puts "foo\n\n\n"
         directory "config", "config", :force => true
         remove_file 'public/index.html'
         remove_file 'public/images/rails.png'
@@ -26,7 +27,7 @@ module Sbdevcore
       def set_routes
         route "Sbdevcore::Routes.draw(self)"
         statics = <<-STR
-  root :to => "indices#show", :id => (Index.find_by_name('home').id rescue 1)
+  root :to => "indices#show", :id => ('home')
   match "(:id)" => "indices#show"
         STR
         route statics

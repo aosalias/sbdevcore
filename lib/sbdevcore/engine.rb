@@ -22,12 +22,6 @@ module Sbdevcore
   class Engine < Rails::Engine
     engine_name "sbdevcore"
 
-#    initializer 'sbdevcore.load_app_config', :before => :load_config_initializers do |app|
-#      raw_config = File.read(Rails.root.join("config", "app_config.yml"))
-#      app.class::APP_CONFIG = (YAML.load(raw_config)[Rails.env].merge YAML.load(raw_config)['shared']).symbolize_keys
-#    end
-
-
     rake_tasks do
       load "tasks/sbdevcore.rake"
     end

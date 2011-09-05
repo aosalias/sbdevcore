@@ -6,8 +6,11 @@ class Photo < ActiveRecord::Base
 
   include ActsAsPrioritizable
   acts_as_prioritizable("index", "assets")
-
-  after_initialize :defaults
+  default_scope :order => 'priority ASC'
+  after_initialize do
+    self.klass ||= "center"
+    self.priority ||= lowest_priority + 1
+  end
 
   has_attached_file :asset,
     :styles => {
@@ -55,9 +58,5 @@ class Photo < ActiveRecord::Base
     extension = File.extname(asset_file_name).gsub(/^\.+/, '')
     filename = asset_file_name.gsub(/\.#{extension}$/, '')
     self.asset.instance_write(:file_name, "#{transliterate(filename)}.#{transliterate(extension)}")
-  end
-
-  def defaults
-    self.klass ||= "center"
   end
 end

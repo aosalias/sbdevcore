@@ -9,7 +9,6 @@ $side_bar-width: 0;
 $padding: 10px;
 $content-width: $window-width - $side_bar-width - 2*($shadow-radius) - 2*$padding;
 @import 'sbdev_core';
-@import 'bar_nav';
 
 body {
   background: url("/assets/background.jpg") repeat fixed center top $background-color;

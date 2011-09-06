@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency('tinymce-rails')
-  s.add_dependency('prioritizable', ">= 0.0.3")
+  s.add_dependency('prioritizable', ">= 0.0.5")
   s.add_dependency('devise')
   s.add_dependency('paperclip')
   s.add_dependency('haml-edge')

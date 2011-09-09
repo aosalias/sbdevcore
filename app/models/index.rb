@@ -41,5 +41,6 @@ class Index < ActiveRecord::Base
 
   def default_name
     self.name ||= (self.title ||= self.owner.name).tableize rescue nil
+    self.title ||= self.name.titleize rescue nil
   end
 end

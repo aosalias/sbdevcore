@@ -33,8 +33,6 @@ class Index < ActiveRecord::Base
 
   accepts_nested_attributes_for :gallery, :allow_destroy => true
 
-  validates_presence_of :title
-
   def assets
     (texts + photos + videos + downloadables).sort_by{|a| a.priority || 99}
   end

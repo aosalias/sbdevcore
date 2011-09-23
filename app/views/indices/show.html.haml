@@ -1,9 +1,10 @@
 =content_for(:sidebar) do
-  #secondary_nav
-    - nav = resource.owner.nil? ? resource : resource.owner
-    = link_to nav.title.titleize, "/" + nav.name, :class => 'button current', :remote => true
-    -nav.indices.each do |page|
-      = link_to page.title.titleize, "/" + page.name, :class => 'button secondary', :remote => true
+  - nav = resource.owner.nil? ? resource : resource.owner
+  - unless nav.indices.empty?
+    #secondary_nav
+      = link_to nav.title.titleize, "/" + nav.name, :class => 'button current', :remote => true
+      -nav.indices.each do |page|
+        = link_to page.title.titleize, "/" + page.name, :class => 'button secondary', :remote => true
 
 =(render :partial => 'show', :object => resource, :as => resource_class.to_s.downcase.to_sym)
 - if request.xhr?

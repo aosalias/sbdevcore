@@ -11,6 +11,7 @@ class Index < ActiveRecord::Base
 
   include ActsAsPrioritizable
   acts_as_prioritizable("owner", "indices")
+
   default_scope :order => 'priority ASC'
   after_initialize do
     self.priority ||= lowest_priority + 1

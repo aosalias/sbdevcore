@@ -49,23 +49,23 @@ Index.all.each(&:destroy)
   }
   Index.create(attr)
 end
-
-statics.each do |index|
-  3.times do |i|
-    sub_index = index + "_#{i.to_s}"
-    attr = {
-      :name => sub_index,
-      :title => sub_index.titleize,
-      :page_title => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
-      :page_description => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
-      :keywords => sub_index,
-      :texts_attributes => {
-        (id += 1).to_s =>{
-          :content => "#{LOREM_LONG}",
-          :priority => "1"
-        }
-      }
-    }
-    Index.find(index).indices.create!(attr)
-  end
-end
+#
+#statics.each do |index|
+#  3.times do |i|
+#    sub_index = index + "_#{i.to_s}"
+#    attr = {
+#      :name => sub_index,
+#      :title => sub_index.titleize,
+#      :page_title => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
+#      :page_description => APP_CONFIG[:app_name] + " - " + sub_index.titleize,
+#      :keywords => sub_index,
+#      :texts_attributes => {
+#        (id += 1).to_s =>{
+#          :content => "#{LOREM_LONG}",
+#          :priority => "1"
+#        }
+#      }
+#    }
+#    Index.find(index).indices.create!(attr)
+#  end
+#end

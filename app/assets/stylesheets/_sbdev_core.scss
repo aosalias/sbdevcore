@@ -86,7 +86,6 @@ body {
   width: 67%;
   background-color: $button-background-color;
   padding: 10px;
-  padding-left: 20px;
   margin: 0;
   color: $content-background-color;
   position: relative;
@@ -99,7 +98,6 @@ body {
   padding: $padding;
   @include box-shadow($shadow-radius);
   @include corners-all($corner-radius);
-  width: $content-width;
 }
 
 #footer {

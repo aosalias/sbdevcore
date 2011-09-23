@@ -37,7 +37,7 @@ module Sbdevcore
         copy_file "application.scss", "app/assets/stylesheets/application.scss", :force => true
         copy_file "sass.scss", "app/assets/stylesheets/sass.scss", :force => true
         directory "application", "app/views/application"
-        inject_into_file "app/assets/javascripts/application.js", "//= require tinymce.jquery\n//= require sbdevcore\n", :before => "//= require_tree ."
+        inject_into_file "app/assets/javascripts/application.js", "//= require sbdevcore\n", :before => "//= require_tree ."
 
         dev_mailer = <<-OPTS
 

@@ -1,8 +1,8 @@
-@mixin box-shadow($radius){
+@mixin box-shadow($radius: 3px, $color: black){
   margin: $radius;
-  -moz-box-shadow: 0 0 $radius darkgray;
-  -webkit-box-shadow: 0 0 $radius darkgray;
-  -box-shadow: 0 0 $radius darkgray;
+  -moz-box-shadow: 0 0 $radius $color;
+  -webkit-box-shadow: 0 0 $radius $color;
+  -box-shadow: 0 0 $radius $color;
   behavior: url(/stylesheets/PIE.htc);
 }
 

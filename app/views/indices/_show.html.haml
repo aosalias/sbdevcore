@@ -2,9 +2,10 @@
 - render_seo index
 .asset
   %h1.title=index.title.titleize
-  %p.asset-admin
-    = link_to "Edit Page", edit_index_path(index.id), :rel=>"#overlay", :class => "overlayed"
-    = link_to("Remove Page", index, :confirm => 'Are you sure?', :method => :delete) if index.owner.is_a?(Gallery)
+  - if admin_signed_in?
+    %p.asset-admin
+      = link_to "Edit Page", edit_index_path(index.id), :rel=>"#overlay", :class => "overlayed"
+      = link_to("Remove Page", index, :confirm => 'Are you sure?', :method => :delete) if index.owner.is_a?(Gallery)
   = render :partial => 'shared/asset_show', :collection => index.assets, :as => :asset
   - if admin_signed_in?
     .asset

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/index.rb" afterPath="$PROJECT_DIR$/app/models/index.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_show.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/engine.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/engine.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +25,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="engine.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="engine.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sbdevcore/engine.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.36659878">
+            <state line="15" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.024439918">
               <folding />
             </state>
           </provider>
@@ -61,13 +65,13 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_buttons.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_bar_nav.scss" />
-        <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
         <option value="$PROJECT_DIR$/app/models/gallery.rb" />
         <option value="$PROJECT_DIR$/app/models/index.rb" />
         <option value="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/indices/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/engine.rb" />
+        <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
       </list>
     </option>
   </component>
@@ -412,6 +416,7 @@
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -424,7 +429,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -500,13 +504,6 @@
     <entry file="file://$PROJECT_DIR$/../../working/sth/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.2688391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.076271184">
           <folding />
         </state>
       </provider>
@@ -590,7 +587,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sbdevcore/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.36659878">
+        <state line="15" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.024439918">
           <folding />
         </state>
       </provider>

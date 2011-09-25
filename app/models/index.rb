@@ -42,4 +42,8 @@ class Index < ActiveRecord::Base
     self.name ||= (self.title ||= self.owner.name).tableize rescue nil
     self.title ||= self.name.titleize rescue nil
   end
+
+  def title
+    owner.try('title') ? owner.title : read_attribute(:title)
+  end
 end

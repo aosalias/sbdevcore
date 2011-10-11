@@ -1,8 +1,13 @@
+require 'open-uri'
 class Photo < ActiveRecord::Base
   belongs_to :index
-  attr_accessible :name, :description, :asset, :asset_file_name, :asset_content_type, :asset_file_size, :klass
+  attr_accessor :url
+  attr_accessible :name, :description, :asset, :asset_file_name, :asset_content_type, :asset_file_size, :klass, :url
 
   validates_presence_of :name, :asset
+  validates_url :url
+
+  before_validation :download_remote_image, :if => :image_url_provided?
 
   include ActsAsPrioritizable
   acts_as_prioritizable("index", "assets")
@@ -58,5 +63,21 @@ class Photo < ActiveRecord::Base
     extension = File.extname(asset_file_name).gsub(/^\.+/, '')
     filename = asset_file_name.gsub(/\.#{extension}$/, '')
     self.asset.instance_write(:file_name, "#{transliterate(filename)}.#{transliterate(extension)}")
+  end
+
+  private
+  def image_url_provided?
+    !self.url.blank?
+  end
+
+  def download_remote_image
+    self.asset = do_download_remote_image
+  end
+
+  def do_download_remote_image
+    io = open(URI.parse(url))
+    def io.original_filename; base_uri.path.split('/').last; end
+    io.is_a?(Tempfile) ? nil : io
+  rescue nil
   end
 end

@@ -6,3 +6,4 @@ en:
     messages:
       email: "Please provide a properly formatted email."
       presence: "Please provide a properly formatted email."
+      url: "Please provide a properly formatted url."

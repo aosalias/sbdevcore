@@ -1,10 +1,19 @@
 - alignment ||= local_assigns[:locals][:alignment]
 - f ||= local_assigns[:locals][:f]
 %div{:id => f.object.id.to_s}
-  - if f.object.asset_file_name
+  - unless f.object.new_record?
     = image_tag f.object.asset.url(:thumb), :width => "100", :class => "left"
   = f.input :name
-  = f.input :asset, :as => :file, :label => "Photo", :input_html => {:validate => ( f.object.asset_file_name.blank? ? true : false) }
+  - if f.object.new_record?
+    .input
+      = label_tag "Upload"
+      = radio_button_tag :asset_type, "file", true
+      File
+      = radio_button_tag :asset_type, "url"
+      URL
+  #asset_type
+    = f.input :asset, :as => :file, :label => "Photo", :required => false, :input_html => { :validate => false }
+    = f.input :url, :label => "Photo URL"
   = f.input :description, :input_html => { :cols => 70, :rows => 3 }
   = f.input :klass, :as => :radio, :collection => ["left", "right", "center"], :label => "Alignment"
   = render "shared/prioritizable_fields", :locals => {:f => f}

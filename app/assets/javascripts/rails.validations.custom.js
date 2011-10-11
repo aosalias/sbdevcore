@@ -3,3 +3,8 @@ clientSideValidations.validators.local["email"] = function (element, options) {
     return options.message;
   }
 };
+clientSideValidations.validators.local["url"] = function (element, options) {
+  if(!/(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/.test(element.val())) {
+    return options.message;
+  }
+};

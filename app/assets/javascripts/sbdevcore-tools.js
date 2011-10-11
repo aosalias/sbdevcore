@@ -107,6 +107,7 @@ function bind_functions(context){
   paginateAjax(context);
 }
 
+
 $(document).ready(function (){
   bind_functions(document);
   init_tinymce();

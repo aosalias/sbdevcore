@@ -1,91 +1,88 @@
 #gallery {
-  a.browse {
-    background:url(/assets/hori_large.png) no-repeat;
-    display:block;
-    width:30px;
-    height:30px;
-    cursor:pointer;
-    font-size:1px;
+  #gallery_wrap a.browse {
+    margin: 25% 10px 0;
   }
-  a.right         { background-position: 0 -30px; clear:right; margin-right: 0px; float: right;}
-  a.right:hover     { background-position:-30px -30px; }
-  a.right:active   { background-position:-60px -30px; }
 
-
-  /* left */
-  a.left        { margin-left: 0px; }
-  a.left:hover      { background-position:-30px 0; }
-  a.left:active    { background-position:-60px 0; }
-
-  a.disabled {
-    visibility:hidden !important;
-  }
-}
-
-#gallery_wrap a.browse {
-  margin: 15px 10px 0;
-}
-
-#gallery_wrap_inner {
-  width: 90%;
-  margin: 0 auto;
-  .title {
-    width: 100%;
+  #gallery_wrap_inner {
+    width: 90%;
     margin: 0 auto;
-    left: 0;
-    padding: 10px 0;
-    @include corners-all($corner-radius);
-    text-align: center;
-  }
-  img {
-    max-width: 566px;
-    max-height: 660px;
-  }
-}
-
-.scroll_nav {
-  margin: 0 auto;
-  width: 700px;
-  a.browse {
-    margin: 62.5px 10px 0;
-  }
-
-}
-
-.scrollable {
-
-  position:relative;
-  overflow:hidden;
-  width: 620px;
-  height:155px;
-  padding: 0;
-  margin: 0;
-  float:left;
-  background-color: transparent;
-  .button {
-    float:left;
-    padding: 5px !important;
-    height:125px;
-    width:125px;
-    border: none;
-    overflow: hidden;
-  }
-
-  img {
-    max-height:125px;
-    max-width:125px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .items {
-    /* this cannot be too large */
-    width:20000em;
-    position:absolute;
-    clear:both;
-    div {
-      float:left;
-      width:620px;
+    .title {
+      width: 100%;
+      margin: 0 auto;
+      left: 0;
+      padding: 10px 0;
+      @include corners-all($corner-radius);
+      text-align: center;
+    }
+    img {
+      max-width: 566px;
+      max-height: 660px;
     }
   }
+
+  .scroll_nav {
+    margin: 0 auto;
+    width: 700px;
+    a.browse {
+      margin: 62.5px 10px 0;
+    }
+
+  }
+
+  .scrollable {
+
+    position:relative;
+    overflow:hidden;
+    width: 620px;
+    height:155px;
+    padding: 0;
+    margin: 0;
+    float:left;
+    background-color: transparent;
+    .button {
+      float:left;
+      padding: 5px !important;
+      height:125px;
+      width:125px;
+      border: none;
+      overflow: hidden;
+    }
+
+    img {
+      max-height:125px;
+      max-width:125px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .items {
+      /* this cannot be too large */
+      width:20000em;
+      position:absolute;
+      clear:both;
+      div {
+        float:left;
+        width:620px;
+      }
+    }
+  }
+}
+
+a.browse {
+  background:url(/assets/hori_large.png) no-repeat;
+  display:block;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+  font-size:1px;
+  &.right         { background-position: 0 -30px; clear:right; margin-right: 0px; float: right;}
+  &.right:hover     { background-position:-30px -30px; }
+  &.right:active   { background-position:-60px -30px; }
+  &.left        { margin-left: 0px; }
+  &.left:hover      { background-position:-30px 0; }
+  &.left:active    { background-position:-60px 0; }
+
+}
+a.disabled {
+  visibility:hidden !important;
 }

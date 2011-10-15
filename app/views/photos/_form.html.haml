@@ -13,7 +13,7 @@
       URL
   #asset_type
     = f.input :asset, :as => :file, :label => "Photo", :required => false, :input_html => { :validate => false }
-    = f.input :url, :label => "Photo URL"
+    = f.input :url, :label => "Photo URL", :required => false, :input_html => { :validate => false }
   = f.input :description, :input_html => { :cols => 70, :rows => 3 }
   = f.input :klass, :as => :radio, :collection => ["left", "right", "center"], :label => "Alignment"
   = render "shared/prioritizable_fields", :locals => {:f => f}

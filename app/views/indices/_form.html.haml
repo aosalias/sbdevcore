@@ -1,9 +1,7 @@
 - f ||= local_assigns[:locals][:f]
 - index ||= f.object
-- index ||= f.object
 %div{:id => f.object.id.to_s}
   = f.input :title
-
   = f.input(:page_title) unless index.owner.is_a?(Gallery)
   = f.input(:keywords, :input_html => { :rows => 5 }) unless index.owner.is_a?(Gallery)
   = f.input(:page_description, :input_html => { :rows => 5 }) unless index.owner.is_a?(Gallery)

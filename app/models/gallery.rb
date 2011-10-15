@@ -6,8 +6,6 @@ class Gallery < ActiveRecord::Base
 
   accepts_nested_attributes_for :indices, :allow_destroy => true
 
-  validates_presence_of :title
-
   def name
     title.downcase.gsub(" ", "_")
   end

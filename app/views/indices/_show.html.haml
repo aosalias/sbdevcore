@@ -1,6 +1,6 @@
 - index ||= local_assigns[:index]
 - render_seo index
-.asset
+.asset.clearfix
   %h1.title=index.title.titleize
   - if admin_signed_in?
     %p.asset-admin
@@ -14,18 +14,19 @@
         = link_to "Add Photo", new_index_photo_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Video", new_index_video_path(index.id), :rel=>"#overlay", :class => "overlayed"
         = link_to "Add Downloadable File", new_index_downloadable_path(index.id), :rel=>"#overlay", :class => "overlayed"
-        = link_to "Add Gallery", new_index_gallery_path(index.id), :rel=>"#overlay", :class => "overlayed" if (index.gallery.nil? && !index.owner.is_a?(Gallery))
+        = link_to "Add Gallery", index_gallery_path(index.id), :method => :post if (index.gallery.nil? && !index.owner.is_a?(Gallery))
 - unless index.gallery.nil?
-  =content_for(:post_content) do
+  =content_for(:gallery) do
     - if admin_signed_in?
       .asset
         %p.asset-admin
-        = link_to "Add Gallery Page", new_gallery_index_path(index.gallery.id), :rel=>"#overlay", :class => "overlayed"
-    = render(:partial => "galleries/show", :object => index.gallery.indices, :as => :indices) unless index.gallery.indices.empty?
+          = link_to "Add Gallery Page", new_gallery_index_path(index.gallery.id), :rel=>"#overlay", :class => "overlayed"
+          = link_to "Remove Gallery", index_gallery_path(index), :method => :delete, :confirm => "Are you sure?"
+        = render(:partial => "galleries/show", :object => index.gallery.indices, :as => :indices) unless index.gallery.indices.empty?
 - if(request.xhr?)
   .content_for.hidden
-    #content_for_post_content
-      =@view_flow.get(:post_content)
+    #content_for_gallery
+      =@view_flow.get(:gallery)
     #content_for_title
       =@view_flow.get(:title)
     #content_for_keywords

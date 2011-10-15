@@ -94,6 +94,27 @@ function spellcheck(context){
   $('.mceEditor iframe', context).contents().find('body').attr("spellcheck", true);
 }
 
+function fade_flash(){
+  setTimeout(function(){$(".flash").slideUp("slow");}, 5000);
+}
+
+function bind_slideshow(){
+  $("#scrollable_tabs").tabs("#scrollable_tabs_content div", {
+    effect:'fade',
+    fadeOutSpeed: "slow",
+    rotate: true
+  }).slideshow({
+    autoplay: true,
+    autopause: true,
+    clickable: true
+  });
+  var api = $("#scrollable_tabs").data("tabs");
+  $("#forward").click(function(){api.next();});
+  $("#backward").click(function(){api.prev();});
+  var slide_api = $("#scrollable_tabs").data("slideshow");
+  $("#pause").click(function(){slide_api.stop();})
+}
+
 function bind_functions(context){
   $('.asset-admin a', context).each(function(){
     $(this).highlightDiv();
@@ -104,7 +125,9 @@ function bind_functions(context){
   set_currents();
   $(".scrollable", context).scrollable();
   $(".items", context).tabs("#gallery_wrap_inner", {effect: 'myAjax', rotate: true}).slideshow({clickable: false});
+  bind_slideshow();
   paginateAjax(context);
+  fade_flash();
 }
 
 

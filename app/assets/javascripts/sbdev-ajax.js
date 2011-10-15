@@ -9,15 +9,11 @@ function ajax_complete_defaults(data){
   $("#main").removeClass('ajax-loader');
   $("#main").html(data);
   $('title').html($("#content_for_title").html());
-  $("#content_for_title").remove();
   $("meta[name='description']").attr("content",$("#content_for_page_description").html());
-  $("#content_for_page_description").remove();
   $("meta[name='keywords']").attr("content",$("#content_for_keywords").html());
-  $("#content_for_keywords").remove();
   $('#sidebar').html($("#content_for_sidebar").html());
-  $("#content_for_sidebar").remove();
-  $('#post_content').html($("#content_for_post_content").html());
-  $("#content_for_post_content").remove();
+  $('#gallery').html($("#content_for_gallery").html());
+  $('#slideshow').html($("#content_for_slideshow").html());
   bind_functions("#main");
 }
 

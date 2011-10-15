@@ -5,7 +5,7 @@ class Photo < ActiveRecord::Base
   attr_accessible :name, :description, :asset, :asset_file_name, :asset_content_type, :asset_file_size, :klass, :url
 
   validates_presence_of :name, :asset
-  validates_url :url
+  validates_url :url, :unless => Proc.new{self.url.blank?}
 
   before_validation :download_remote_image, :if => :image_url_provided?
 

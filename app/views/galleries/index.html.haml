@@ -2,7 +2,7 @@
 = render :partial => 'indices/index'
 - if admin_signed_in?
   %p= link_to "New Gallery", new_gallery_path
-- content_for :post_content do
+- content_for :gallery do
   - for gallery in @galleries
     .clearfix.content.corner-all.box-shadow
       = link_to image_tag(gallery.assets.first.thumb, :class => 'left'), gallery

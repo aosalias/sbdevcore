@@ -4,6 +4,7 @@ class Index < ActiveRecord::Base
   delegate :asset, :to => :"photos.first", :allow_nil => true
   alias_method :photo, :asset
 
+  validates_presence_of :title
   before_validation :default_name
 
   extend FriendlyId
@@ -31,7 +32,6 @@ class Index < ActiveRecord::Base
   accepts_nested_attributes_for :photos, :reject_if => lambda { |a| a[:asset].blank? }, :allow_destroy => true
   accepts_nested_attributes_for :downloadables, :reject_if => lambda { |a| a[:asset].blank? }, :allow_destroy => true
   accepts_nested_attributes_for :texts, :reject_if => lambda { |a| a[:content].blank?}, :allow_destroy => true
-
   accepts_nested_attributes_for :gallery, :allow_destroy => true
 
   def assets
@@ -43,7 +43,7 @@ class Index < ActiveRecord::Base
     self.title ||= self.name.titleize rescue nil
   end
 
-  def title
-    owner.try('title') ? owner.title : read_attribute(:title)
-  end
+#  def title
+#    owner.try('title') ? owner.title : read_attribute(:title)
+#  end
 end

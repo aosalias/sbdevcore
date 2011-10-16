@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb" afterPath="$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110924202450_add_new.rb" afterPath="$PROJECT_DIR$/db/migrate/20110924202450_add_new.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,10 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.016282225">
+            <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.016877636">
               <folding />
             </state>
           </provider>
@@ -104,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/photo.rb" />
         <option value="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/models/gallery.rb" />
         <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
@@ -120,6 +126,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20110924202450_add_new.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+        <option value="$PROJECT_DIR$/app/models/photo.rb" />
       </list>
     </option>
   </component>
@@ -149,7 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,18 +191,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../prioritizable/lib/prioritizable" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: core">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -474,114 +481,86 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.tools.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="14155" selection-end="14155" vertical-scroll-proportion="0.12955466">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/indices/_show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.19538671">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.19538671" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="2" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.44875348">
-          <folding />
-        </state>
+        <state line="36" column="2" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.44875348" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110924202450_add_new.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.14654003">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.14654003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/install_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="390" selection-end="390" vertical-scroll-proportion="0.18461539">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="390" selection-end="390" vertical-scroll-proportion="0.18461539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="19" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.015873017">
-          <folding />
-        </state>
+        <state line="127" column="19" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.015873017" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="631" selection-end="631" vertical-scroll-proportion="0.015873017">
-          <folding />
-        </state>
+        <state line="19" column="14" selection-start="631" selection-end="631" vertical-scroll-proportion="0.015873017" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/galleries/_show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.016194332">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.016194332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/indices/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/_header.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/generators/sbdevcore/templates/sass.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="666" selection-end="905" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="0" selection-start="666" selection-end="905" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.016282225">
+        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.016877636">
           <folding />
         </state>
       </provider>

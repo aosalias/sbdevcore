@@ -1,3 +1,4 @@
+require "iconv"
 require 'open-uri'
 class Photo < ActiveRecord::Base
   belongs_to :index

@@ -10,6 +10,5 @@ class CreateIndices < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :indices, :slug, :unique => true
   end
 end

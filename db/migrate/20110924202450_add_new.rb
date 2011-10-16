@@ -6,6 +6,7 @@ class AddNew < ActiveRecord::Migration
       t.integer :priority
       t.string :title
     end
+    add_index :indices, :slug, :unique => true
   end
 
   def down

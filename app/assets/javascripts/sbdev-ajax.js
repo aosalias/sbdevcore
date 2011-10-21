@@ -12,7 +12,7 @@ function ajax_complete_defaults(data){
   $("meta[name='description']").attr("content",$("#content_for_page_description").html());
   $("meta[name='keywords']").attr("content",$("#content_for_keywords").html());
   $('#sidebar').html($("#content_for_sidebar").html());
-  $('#gallery').html($("#content_for_gallery").html());
+  $("#content_for_gallery").appendTo('#main');
   $('#slideshow').html($("#content_for_slideshow").html());
   bind_functions("#main");
 }

@@ -114,7 +114,7 @@ body {
 }
 
 img {
-  max-width: $content-width - $padding*2 - 2*$shadow-radius/1.5;
+  max-width: $content-width - $padding*2 - 2*$shadow-radius;
   display: inline-block;
 }
 

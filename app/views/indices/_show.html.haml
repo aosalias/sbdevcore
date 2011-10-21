@@ -1,6 +1,6 @@
 - index ||= local_assigns[:index]
 - render_seo index
-.asset.clearfix
+.asset.clearfix{:id => index.name}
   %h1.title=index.title.titleize
   - if admin_signed_in?
     %p.asset-admin

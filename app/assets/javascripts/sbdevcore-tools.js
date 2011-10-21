@@ -111,8 +111,8 @@ function bind_slideshow(){
     prev: '#backward'
   });
   var api = $("#scrollable_tabs").data("tabs");
-  $("#forward").click(function(){api.next();});
-  $("#backward").click(function(){api.prev();});
+  $("#forward").click(function(){api.stop();});
+  $("#backward").click(function(){api.stop();});
   var slide_api = $("#scrollable_tabs").data("slideshow");
   $("#pause").click(function(){slide_api.stop();})
 }

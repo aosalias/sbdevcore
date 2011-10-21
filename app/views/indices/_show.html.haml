@@ -22,7 +22,7 @@
         %p.asset-admin
           = link_to "Add Gallery Page", new_gallery_index_path(index.gallery.id), :rel=>"#overlay", :class => "overlayed"
           = link_to "Remove Gallery", index_gallery_path(index), :method => :delete, :confirm => "Are you sure?"
-        = render(:partial => "galleries/show", :object => index.gallery.indices, :as => :indices) unless index.gallery.indices.empty?
+    = render(:partial => "galleries/show", :object => index.gallery.indices, :as => :indices) unless index.gallery.indices.empty?
 - if(request.xhr?)
   .content_for.hidden
     #content_for_gallery

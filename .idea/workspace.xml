@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_show.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,10 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sbdev_core.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_sbdev_core.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="59" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.23010753">
+            <state line="116" column="59" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-4.1153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.024439918">
               <folding />
             </state>
           </provider>
@@ -88,11 +94,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_gallery.scss" />
         <option value="$PROJECT_DIR$/app/views/galleries/_show.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js" />
-        <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.tools.min.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
         <option value="$PROJECT_DIR$/app/views/indices/_show.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss" />
+        <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
       </list>
     </option>
   </component>
@@ -416,9 +422,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293201" sideWeight="0.6619898" order="0" side_tool="false" content_ui="tabs" />
@@ -555,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.024439918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="34" selection-start="3173" selection-end="3173" vertical-scroll-proportion="0.0">
@@ -585,7 +584,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="59" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.23010753">
+        <state line="116" column="59" selection-start="2229" selection-end="2229" vertical-scroll-proportion="-4.1153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="36" selection-end="36" vertical-scroll-proportion="0.024439918">
           <folding />
         </state>
       </provider>

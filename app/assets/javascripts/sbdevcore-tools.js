@@ -106,7 +106,9 @@ function bind_slideshow(){
   }).slideshow({
     autoplay: true,
     autopause: true,
-    clickable: true
+    clickable: true,
+    next: '#forward',
+    prev: '#backward'
   });
   var api = $("#scrollable_tabs").data("tabs");
   $("#forward").click(function(){api.next();});
@@ -134,5 +136,13 @@ function bind_functions(context){
 $(document).ready(function (){
   bind_functions(document);
   init_tinymce();
+
+  $(window).focus(function() {
+    $("#scrollable_tabs").data("slideshow").play();
+  });
+
+  $(window).blur(function() {
+    $("#scrollable_tabs").data("slideshow").stop();
+  });
 });
  

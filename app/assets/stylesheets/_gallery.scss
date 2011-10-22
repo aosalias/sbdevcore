@@ -6,6 +6,7 @@
   #gallery_wrap_inner {
     width: 90%;
     margin: 0 auto;
+    min-height: 500px;
     .title {
       width: 100%;
       margin: 0 auto;
@@ -15,8 +16,8 @@
       text-align: center;
     }
     img {
-      max-width: 566px;
-      max-height: 660px;
+      max-width: 800px;
+      max-height: 700px;
     }
   }
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="slideshow">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
+    <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/indices/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/photos/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/photos/_form.html.haml" />
     </list>
     <ignored path=".idea/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,15 +30,6 @@
         <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="16" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sbdev-ajax.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdev-ajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="66" selection-end="82" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,10 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/photos/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.16282225">
+            <state line="10" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/indices/_form.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.08141112">
               <folding />
             </state>
           </provider>
@@ -131,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/index.rb" />
         <option value="$PROJECT_DIR$/app/views/indices/show.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/indices_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110811000613_create_indices.rb" />
@@ -147,6 +144,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
         <option value="$PROJECT_DIR$/app/views/photos/_form.html.haml" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+        <option value="$PROJECT_DIR$/app/views/indices/_form.html.haml" />
       </list>
     </option>
   </component>
@@ -485,6 +483,7 @@
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -497,7 +496,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -558,11 +556,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.tools.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="154" selection-start="46531" selection-end="46531" vertical-scroll-proportion="0.94957983" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_sbdev_core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="59" selection-start="2229" selection-end="2229" vertical-scroll-proportion="0.024439918" />
@@ -653,7 +646,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/photos/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.16282225">
+        <state line="10" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/indices/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.08141112">
           <folding />
         </state>
       </provider>

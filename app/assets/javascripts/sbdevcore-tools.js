@@ -99,22 +99,31 @@ function fade_flash(){
 }
 
 function bind_slideshow(){
-  $("#scrollable_tabs").tabs("#scrollable_tabs_content div", {
-    effect:'fade',
-    fadeOutSpeed: "slow",
-    rotate: true
-  }).slideshow({
-    autoplay: true,
-    autopause: true,
-    clickable: true,
-    next: '#forward',
-    prev: '#backward'
-  });
-  var api = $("#scrollable_tabs").data("tabs");
-  $("#forward").click(function(){api.stop();});
-  $("#backward").click(function(){api.stop();});
-  var slide_api = $("#scrollable_tabs").data("slideshow");
-  $("#pause").click(function(){slide_api.stop();})
+  if(!jQuery.isEmptyObject($('#scrollable_tabs_content'))){
+    $("#scrollable_tabs").tabs("#scrollable_tabs_content div", {
+      effect:'fade',
+      fadeOutSpeed: "slow",
+      rotate: true
+    }).slideshow({
+      autoplay: true,
+      autopause: true,
+      clickable: true,
+      next: '#forward',
+      prev: '#backward'
+    });
+    var api = $("#scrollable_tabs").data("tabs");
+    $("#forward").click(function(){api.stop();});
+    $("#backward").click(function(){api.stop();});
+    var slide_api = $("#scrollable_tabs").data("slideshow");
+    $("#pause").click(function(){slide_api.stop();})
+    $(window).focus(function() {
+      $("#scrollable_tabs").data("slideshow").play();
+    });
+
+    $(window).blur(function() {
+      $("#scrollable_tabs").data("slideshow").stop();
+    });
+  }
 }
 
 function bind_functions(context){
@@ -136,13 +145,5 @@ function bind_functions(context){
 $(document).ready(function (){
   bind_functions(document);
   init_tinymce();
-
-  $(window).focus(function() {
-    $("#scrollable_tabs").data("slideshow").play();
-  });
-
-  $(window).blur(function() {
-    $("#scrollable_tabs").data("slideshow").stop();
-  });
 });
  

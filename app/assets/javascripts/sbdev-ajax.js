@@ -6,6 +6,7 @@ $.ajaxSetup({
 });
 
 function ajax_complete_defaults(data){
+  alert('foo');
   $("#main").removeClass('ajax-loader');
   $("#main").html(data);
   $('title').html($("#content_for_title").html());

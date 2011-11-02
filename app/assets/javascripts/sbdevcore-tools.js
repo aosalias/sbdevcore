@@ -119,7 +119,6 @@ function bind_slideshow(){
     $(window).focus(function() {
       $("#scrollable_tabs").data("slideshow").play();
     });
-
     $(window).blur(function() {
       $("#scrollable_tabs").data("slideshow").stop();
     });
@@ -144,6 +143,7 @@ function bind_functions(context){
 
 $(document).ready(function (){
   bind_functions(document);
+  $("body").delegate("ready", '.asset-admin a', function(){$(this).highlightDiv();});
   init_tinymce();
 });
  

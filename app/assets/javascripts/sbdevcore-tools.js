@@ -143,7 +143,6 @@ function bind_functions(context){
 
 $(document).ready(function (){
   bind_functions(document);
-  $("body").delegate("ready", '.asset-admin a', function(){$(this).highlightDiv();});
   init_tinymce();
 });
  

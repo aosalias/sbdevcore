@@ -12,6 +12,5 @@
 //= require tiny_mce_config.js
 //= require history.adapter.jquery
 //= require history
-//= require history.html4
 //= require sbdevcore-tools.js
 //= require sbdev-ajax.js

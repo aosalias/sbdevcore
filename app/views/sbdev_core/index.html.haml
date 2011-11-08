@@ -2,6 +2,7 @@
   =render :partial => "application/secondary_nav"
 
 =(render :partial => 'indices/show', :object => @index, :as => :index)
+=(render :partial => 'show', :collection => collection, :as => resource_class.to_s.downcase.to_sym)
 - if request.xhr?
   .content_for.hidden
     #content_for_sidebar

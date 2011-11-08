@@ -26,23 +26,15 @@ body {
 }
 
 #header {
-  background-color: $content-background-color;
-  height: 120px;
-  border-bottom: 2px solid silver;
-  .inner {
-    width: $content-width;
-    margin: 0 auto;
-    position: relative;
-    h1 {
-      margin: 10px 0;
-      font-size: 300%;
-      letter-spacing: 3px;
-      word-spacing: 7px;
-      font-family: "28Days";
-      text-shadow: 4px 4px 3px steelblue;
-      display: inline-block;
-      font-weight: normal;
-    }
+  h1 {
+    font-size: 300%;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    font-family: "28Days";
+    text-shadow: 4px 4px 3px steelblue;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -79,14 +71,9 @@ body {
 }
 
 .title {
-  width: 67%;
-  background-color: $button-background-color;
-  padding: 10px;
   margin: 0;
-  color: $content-background-color;
-  position: relative;
-  left: -15px;
-  @include corners-right($corner-radius);
+  color: $button-background-color;
+  font-weight: bold;
 }
 
 .content {

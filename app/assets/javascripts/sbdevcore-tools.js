@@ -99,7 +99,7 @@ function fade_flash(){
 }
 
 function bind_slideshow(){
-  if(!jQuery.isEmptyObject($('#scrollable_tabs_content'))){
+  if($('#scrollable_tabs_content') > 0){
     $("#scrollable_tabs").tabs("#scrollable_tabs_content div", {
       effect:'fade',
       fadeOutSpeed: "slow",

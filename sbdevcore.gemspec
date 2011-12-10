@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency('tinymce-rails')
   s.add_dependency('prioritizable', ">= 0.0.5")
   s.add_dependency('devise')
-  s.add_dependency('paperclip')
+  s.add_dependency('paperclip', "2.3.8")
   s.add_dependency('haml-edge')
   s.add_dependency('sitemap_generator')
   s.add_dependency("hpricot")
@@ -32,4 +32,5 @@ Gem::Specification.new do |s|
   s.add_dependency('aws-s3')
   s.add_dependency('inherited_resources')
   s.add_dependency("friendly_id", "~> 4.0.0.beta8")
+  s.add_dependency("has_scope")
 end

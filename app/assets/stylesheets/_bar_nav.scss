@@ -9,10 +9,6 @@
   }
 }
 
-.content {
-  margin-top: 0 !important;
-}
-
 #main_container {
   @include box-shadow($shadow-radius);
   @include corners-bottom($corner-radius);

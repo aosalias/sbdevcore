@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="b8b56ec4-45f8-4144-afba-a1bc2f2f511f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sbdevcore/version.rb" afterPath="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,19 +26,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sbdevcore-tools.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sbdevcore-tools.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="36" selection-start="2825" selection-end="2825" vertical-scroll-proportion="-5.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.015873017">
+            <state line="115" column="42" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.23809524">
               <folding />
             </state>
           </provider>
@@ -72,8 +62,8 @@
         <option value="$PROJECT_DIR$/app/models/photo.rb" />
         <option value="$PROJECT_DIR$/sbdevcore.gemspec" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/engine.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
         <option value="$PROJECT_DIR$/lib/sbdevcore/version.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js" />
       </list>
     </option>
   </component>
@@ -412,6 +402,7 @@
     <frame x="0" y="22" width="1436" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -424,7 +415,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -558,16 +548,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="36" selection-start="2825" selection-end="2825" vertical-scroll-proportion="-5.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sbdevcore/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.015873017" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sbdevcore-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="42" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.23809524">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

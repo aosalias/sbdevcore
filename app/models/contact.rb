@@ -8,6 +8,6 @@ class Contact < ActiveRecord::Base
   validates_email :email
 
   def send_email
-    Mailer.message(self).deliver
+    Mailer.inquiry(self).deliver
   end
 end

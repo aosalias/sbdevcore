@@ -3,6 +3,6 @@ class Mailer < ActionMailer::Base
 
   def inquiry(message)
     @message = message
-    mail(:reply_to => message.email, :subject => "#{message.name} sent you a message from #{APP_CONFIG[:app_name]}.")
+    mail(:reply_to => message.email, :from => message.email, :subject => "#{message.name} sent you a message from #{APP_CONFIG[:app_name]}.")
   end
 end

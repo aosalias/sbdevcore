@@ -5,7 +5,6 @@ module Sbdevcore
       argument :app_name, :type => :string
 
       def remove_bs
-        puts "foo\n\n\n"
         directory "config", "config", :force => true
         remove_file 'public/index.html'
         remove_file 'public/images/rails.png'
